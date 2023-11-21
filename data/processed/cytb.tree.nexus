@@ -1,0 +1,42 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Mon Nov 20 15:22:40 2023]
+[!
+>Data file = cytb.nexus
+>Branch-and-bound search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 1143 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        803 characters are constant (proportion = 0.702537)
+>        151 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 189
+>    Gaps are treated as "missing"
+>    Multistate taxa interpreted as uncertainty
+>  Initial upper bound: unknown (compute heuristically)
+>  Addition sequence: furthest
+>  Initial 'Maxtrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Branch-and-bound search completed:
+>  Score of best tree found = 540
+>  Number of trees retained = 1
+>  Time used = 0.01 sec (CPU time = 0.00 sec)
+]
+	Translate
+		1 KX902238.1,
+		2 MG590288.1,
+		3 NC_027947.1,
+		4 NC_031864.1,
+		5 NC_031865.1,
+		6 NC_031866.1,
+		7 NC_031869.1,
+		8 NC_036613.1,
+		9 NC_042502.1
+		;
+tree 'PAUP_1' = [&U] ((((1:49,4:60):18,(6:68,7:77):17):27,((2:15,5:20):26,(3:3,8:8):23):43):17,9:69);
+End;
