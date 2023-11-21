@@ -197,7 +197,7 @@ These observations underscore the importance of using comprehensive genomic data
     ~~~
 
 3. **Maximum parsimony tree with PAUP:**
-    We created a maximum parsimony tree with Ecopistes migratorius (NC_042502.1) as outgroup using PAUP with the following commands:
+    We created a maximum parsimony tree using the Branch and Bound algorithm (bandb) as previously. We set Ectopistes migratorius (NC_042502.1) as the outgroup. The process was executed in PAUP with the following commands:
 
     ~~~bash
     paup> execute data/processed/cytb.nexus

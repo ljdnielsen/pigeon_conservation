@@ -37,10 +37,44 @@
     ~~~
 
 4. **Maximum parsimony phylogram of relabeled Cytochrome B sequences:**
+    As the renamed sequence names were too long for downstream analysis with PAUP, the following steps were done with the accession nr.-named sequences.
     - **Sequence alignment using MAFFT:**
     The CYTB sequences were aligned with MAFFT by executing the following command:
 
     ~~~bash
     mafft --auto data/processed/genera/Goura/renamed_fasta/cytb.fasta > data/processed/genera/Goura/cytb.aligned.fasta
     ~~~
+
+    The alignment was visually inspected with Jalview v. 2.11.2.7 and AliView v.2021.
+
+    - **Conversion of the alignment to NEXUS format:**
+    The alignment was converted to NEXUS format with seqconverter by executing the following command:
+    
+    ~~~bash
+    seqconverter -I fasta -O nexus data/processed/genera/Goura/cytb.aligned.fasta > data/processed/genera/Goura/cytb.nexus
+    ~~~
+
+    - **Maximum parsimony phylogram using PAUP:**
+    We created a maximum parsimony phylogram in PAUP using a heuristic search(hsearch). The root method was set to 'midpoint'. We set 'increase=auto' to allow PAUP to store an unlimited number of trees, used the branch-swapping algorithm 'tree-bisection-reconnection' (TBR) as described in 'Week 5: Consensus trees' of course 22115 by Anders Gorm Pedersen at DTU Health Tech [^1]:
+
+    ~~~bash
+    paup> execute data/processed/genera/Goura/cytb.nexus
+    paup> set root=midpoint
+    paup> set increase=auto
+    paup> hsearch start=stepwise addseq=random nreps=20 rseed=98367 swap=TBR
+    ~~~
+
+    From this search, 12 equally parsimonious trees were found. These trees were summarized in a consensus tree according to the majority rule, i.e. monophyletic groups occuring in at least 50% of the 12 equally parsimonious trees are accepted. The consesus tree, containing the frequency with which monophyletic group occured as branch labels, was generated and saved by executing the following command:
+    
+    ~~~bash
+    paup> contree all /strict=no majrule=yes percent=50 treefile=data/processed/genera/Goura/cytb.consensus.tree.nexus
+    ~~~
+
+    The 12 equaly parsimonious trees were saved as well:
+
+    ~~~bash
+    paup> savetrees file=data/processed/genera/Goura/cytb.parsimonious_trees.nexus
+    ~~~
+
+    [^1]:[Consus Trees, Week 5, 22115 - Computational Molecular Evolution](https://teaching.healthtech.dtu.dk/22115/index.php/Consensus_Trees)
 
