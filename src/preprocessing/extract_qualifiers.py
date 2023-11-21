@@ -34,7 +34,7 @@ def extract(directory, annotations, qualifiers):
 
 # Set up argument Parser
 parser = argparse.ArgumentParser(description='Extract annotations or qualifiers from GenBank files in specified folder')
-parser.add_argument('--directory', help='input directory with GenBank files')
+parser.add_argument('--directory', help='input directory with GenBank files', required=True)
 parser.add_argument('--annotations', nargs='+', help='list of annotations to extract')
 parser.add_argument('--qualifiers', nargs='+', help='list of qualifiers to extract')
 
