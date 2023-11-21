@@ -1,0 +1,42 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Thu Nov 16 14:24:59 2023]
+[!
+>Data file = reference_genomes.nexus
+>Branch-and-bound search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 18553 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        13261 characters are constant (proportion = 0.714763)
+>        2346 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 2946
+>    Gaps are treated as "missing"
+>    Multistate taxa interpreted as uncertainty
+>  Initial upper bound: unknown (compute heuristically)
+>  Addition sequence: furthest
+>  Initial 'Maxtrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Branch-and-bound search completed:
+>  Score of best tree found = 8568
+>  Number of trees retained = 1
+>  Time used = 0.01 sec (CPU time = 0.02 sec)
+]
+	Translate
+		1 KX902238,
+		2 MG590288,
+		3 NC_027947,
+		4 NC_031864,
+		5 NC_031865,
+		6 NC_031866,
+		7 NC_031869,
+		8 NC_036613,
+		9 NC_042502
+		;
+tree 'PAUP_1' = [&U] (((((1:813,4:752):487,7:1023):505,((2:230,5:221):316,(3:89,8:88):343):764):482,6:862):573,9:1020);
+End;
