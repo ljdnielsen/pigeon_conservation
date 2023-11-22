@@ -1,6 +1,6 @@
 # Tracing Goura Haplotypes Through Time
 
-## Median-Joining Network of Goura Cytochrome B
+## Consensus Tree of Goura Specimens with Cytochrome B
 
 1. **Extraction of cytochrome b DNA sequences:**
     Cytochrome b DNA sequences were written to the FASTA file '__cytochrome_b.fasta__' with the python executable '__concatenate_genes.py__' using the terms 'CYTB' and 'cob' for input genes as the gene is annotated by either name in the genbank files:
@@ -36,7 +36,7 @@
     python3 src/preprocessing/rename_fasta.py data/metadata/sample_origins.csv data/processed/genera/Goura/trimmed_fasta/cytb.fasta COLLECTION_DATE ORGANISM COUNTRY COLLECTED_BY > data/processed/genera/Goura/renamed_fasta/cytb.fasta
     ~~~
 
-4. **Maximum parsimony phylogram of relabeled Cytochrome B sequences:**
+4. **Maximum parsimony consensus tree using PAUP:**
     As the renamed sequence names were too long for downstream analysis with PAUP, the following steps were done with the accession nr.-named sequences.
     - **Sequence alignment using MAFFT:**
     The CYTB sequences were aligned with MAFFT by executing the following command:
@@ -54,8 +54,8 @@
     seqconverter -I fasta -O nexus data/processed/genera/Goura/cytb.aligned.fasta > data/processed/genera/Goura/cytb.nexus
     ~~~
 
-    - **Maximum parsimony phylogram using PAUP:**
-    We created a maximum parsimony phylogram in PAUP using a heuristic search(hsearch). The root method was set to 'midpoint'. We set 'increase=auto' to allow PAUP to store an unlimited number of trees, used the branch-swapping algorithm 'tree-bisection-reconnection' (TBR) as described in 'Week 5: Consensus trees' of course 22115 by Anders Gorm Pedersen at DTU Health Tech [^1]:
+    - **Consensus tree with branch support values:**
+    We searched for equally parsimonious unrooted trees in PAUP using a heuristic search (hsearch) with optimality criterion set to 'parsimony'. The root method was set to 'midpoint'. We set 'increase=auto' to allow PAUP to store an unlimited number of trees, used the branch-swapping algorithm 'tree-bisection-reconnection' (TBR) as described in 'Week 5: Consensus trees' of course 22115 by Anders Gorm Pedersen at DTU Health Tech [^1]:
 
     ~~~bash
     paup> execute data/processed/genera/Goura/cytb.nexus
@@ -64,7 +64,7 @@
     paup> hsearch start=stepwise addseq=random nreps=20 rseed=98367 swap=TBR
     ~~~
 
-    From this search, 12 equally parsimonious trees were found. These trees were summarized in a consensus tree according to the majority rule, i.e. monophyletic groups occuring in at least 50% of the 12 equally parsimonious trees are accepted. The consesus tree, containing the frequency with which monophyletic group occured as branch labels, was generated and saved by executing the following command:
+    From this search, 12 equally parsimonious trees were found. These trees were summarized in a consensus tree according to the majority rule, i.e. monophyletic groups occuring in at least 50% of the 12 equally parsimonious trees are accepted. The consesus tree, with branches labeled with support values i.e. the frequency with which the more terminal branches were monophyletic, was generated and saved by executing the following command:
     
     ~~~bash
     paup> contree all /strict=no majrule=yes percent=50 treefile=data/processed/genera/Goura/cytb.consensus.tree.nexus
@@ -76,5 +76,18 @@
     paup> savetrees file=data/processed/genera/Goura/cytb.parsimonious_trees.nexus
     ~~~
 
-    [^1]:[Consus Trees, Week 5, 22115 - Computational Molecular Evolution](https://teaching.healthtech.dtu.dk/22115/index.php/Consensus_Trees)
+5. **Annotation of consensus tree:**
+
+    - **Support value discrepancy:**
+    Before annotating the consensus tree we noticed a discrepancy in a support value between the direct PAUP output printed to the screen and the NEXUS file of the consensus tree saved directly from the PAUP output. Specifically the NEXUS file contained a basal support value of 200%, while the PAUP output printed to the screen showed the same branch with a support value of 100%. We noted that none of the support values printed in PAUP exceeded 100%. We then compared the support values of the consensus tree printed in PAUP with the NEXUS formatted tree visualized in iToL and confirmed that all support values matched except for the basal 200% value. We attribute this discrepancy to a bug in the conversion process from PAUP to a tree file, possibly associated with our choice to produce an unrooted tree and not include an outgroup. We manually corrected the basal 200% support value to 100% in iTol.
+
+    - **Annotation of leaf nodes in iTol:**
+    To create an annotation file, we first created a column of new names by joining the columns 'COLLECTION_DATE', 'ORGANISM', 'COUNTRY', and 'COLLECTED_BY' of the metadata file 'data/metadata/__sample_origins.csv__' by '|' using Excel. For the 40 Goura specimens, this new column was copied together with the 'ACCESSION' to the bottom of a copy of the iToL annotation template 'docs/templates/__annotation_template.txt__', the 'SEPARATOR' set to 'TAB', and saved as 'data/metadata/__goura_annotations.txt__'. The resulting tree is saved as 'results/figures/__goura.cytb.tree.png__'. We also made a tree labeled with only collection date, organism, and country of origin, as shown below:
+
+![Goura Cytochrome B Consensus Tree](../../results/figures/goura.cytb.tree.short_annotation.png)
+
+
+    
+
+[^1]:[Consus Trees, Week 5, 22115 - Computational Molecular Evolution](https://teaching.healthtech.dtu.dk/22115/index.php/Consensus_Trees)
 

@@ -1,0 +1,68 @@
+LABELS
+#use this template to change the leaf labels, or define/change the internal node names
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
+
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#NODE_ID,LABEL
+
+#Examples
+#define a name for an internal node
+#9031|9606,Metazoa
+
+#change the label for leaf node 9606
+#9606,Homo sapiens
+
+LN589993.1	1920|Goura victoria beccarii|Papua New Guinea:Watam Sepik River|Potter
+MG590297.1	n/a|Goura victoria|Indonesia: Wonti, Waropen area|W.M. Doherty
+NC_036613.1	n/a|Goura victoria|Indonesia: Mamberamo River|n/a
+MG590301.1	1966|Goura victoria|Papua New Guinea: Utai, Bewani Mountains|J.M. Diamond
+MG590302.1	1966|Goura victoria|Papua New Guinea: Ambunti|n/a
+MG590300.1	1959|Goura victoria|Papua New Guinea: Oronga, Adelbert Mountains|E.T. Gilliard
+MG590299.1	1954|Goura victoria|Papua New Guinea: Yamanumba|E.T. Gilliard
+MG590293.1	1939|Goura victoria|Indonesia: Bernhard Camp (along Idenburg River)|n/a
+MG590294.1	1938|Goura victoria|Indonesia: Humboldt Bay|n/a
+MG590290.1	1920|Goura victoria|Papua New Guinea: Ramu River (Botbot)|W. Potter
+MG590289.1	1920|Goura victoria|Papua New Guinea: Malala|W. Potter
+MG590292.1	1920|Goura victoria|Papua New Guinea: Dugumur Bay|W. Potter
+MG590298.1	1899|Goura victoria|Papua New Guinea: Stephansort|E. Nyman
+MG590296.1	1896|Goura victoria|Indonesia: Biak Island, Geelvink Bay|W.M. Doherty
+MG590295.1	1883|Goura victoria|Indonesia: Yapen Island, Geelvink Bay|H. Guillemard
+MG590291.1	1873|Goura victoria|Indonesia: Kordo|A.B. Meyer
+MG590288.1	n/a|Goura sclaterii|Indonesia: Okaba|n/a
+MG590287.1	n/a|Goura sclaterii|Indonesia: Brazza River|n/a
+MG590286.1	1971|Goura sclaterii|Indonesia: Cape Steenboon, Carstenz range|n/a
+MG590285.1	1964|Goura sclaterii|Papua New Guinea: Oriomo River, near the mouth|n/a
+MG590279.1	1912|Goura sclaterii|Indonesia: Utakwa River|BOU
+MG590278.1	1910|Goura sclaterii|Indonesia: Mimika River|BOU
+MG590277.1	1877|Goura sclaterii|Papua New Guinea: Fly River, southern entrance|V. d'Albertis
+MG590283.1	1966|Goura scheepmakeri|Papua New Guinea: Ravikevau, Purari delta|n/a
+MG590284.1	1966|Goura scheepmakeri|Papua New Guinea: Putei, near the Purari River|n/a
+MG590282.1	1966|Goura scheepmakeri|Papua New Guinea: Lohiki/Vailala River junction|n/a
+MG590281.1	1948|Goura scheepmakeri|Papua New Guinea: Brown River road|E.T. Gilliard
+MG590280.1	1893|Goura scheepmakeri|Papua New Guinea: Yule Island, Nicura|Lix
+NC_027947.1	1879|Goura scheepmakeri|Papua New Guinea:Port Moresby|n/a
+LN589994.2	1934|Goura cristata minor|Papua New Guinea:Salawatt|n/a
+NC_031865.1	n/a|Goura cristata|n/a|n/a
+MG590270.1	n/a|Goura cristata|Indonesia: Arfak Mountains|n/a
+MG590275.1	2014|Goura cristata|Indonesia: Lengguru River, Triton Bay|H. Ashari
+MG590274.1	2014|Goura cristata|Indonesia: Kamaka, Triton Bay|H. Ashari
+MG590273.1	1925|Goura cristata|Indonesia: Waigeo Island (Majalibit Bay)|W.J. Frost
+MG590269.1	1902|Goura cristata|Indonesia: Waigeo Island|J. Waterstradt
+MG590271.1	1896|Goura cristata|Indonesia: Triton Bay|C. Webster
+MG590272.1	1896|Goura cristata|Indonesia: Etna Bay|C. Webster
+MG590267.1	1873|Goura cristata|Indonesia: Rubi|A.B. Meyer
+MG590268.1	1860|Goura cristata|Indonesia: Misool Island|C. Allen
+
