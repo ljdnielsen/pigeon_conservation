@@ -1,6 +1,6 @@
 # Tracing Goura Haplotypes Through Time
 
-## Consensus Tree of Goura Specimens with Cytochrome B
+## Consensus Tree of Goura Specimens from Cytochrome B
 
 1. **Extraction of cytochrome b DNA sequences:**
     Cytochrome b DNA sequences were written to the FASTA file '__cytochrome_b.fasta__' with the python executable '__concatenate_genes.py__' using the terms 'CYTB' and 'cob' for input genes as the gene is annotated by either name in the genbank files:
@@ -86,8 +86,44 @@
 
 ![Goura Cytochrome B Consensus Tree](../../results/figures/goura.cytb.tree.short_annotation.png)
 
+We observed that G. sclaterii delineates into two clades: One collected in Indonesia and one collected on Papua New Guinea - both clades have a support value of 100%. We also noted that for G. cristata there exists a clade from which no samples have been collected since 1925, which includes the specimen collected in 1860 by Charles M. Allen. And, that for G. victoria there exists a clade, containing the only specimen of subspecies baccarii, from which no samples have been collected since 1938. We also noted that all lineages delineate according to species, and that G. sclaterii and G. cristata form a monophyletic group distinct from G. scheepmakerii and G. victoria that form a separate monophyletic group, showing the Cytochrome B provides high enough resolution to correctly represent the phylogenetic organization of species within the Goura genus.
 
-    
+## Maximum Likelihood Tree of Orthologous Mitogenes
+
+To create phylogenetic trees based on all core orthologous genes of the mitogenomes, we first extracted protein sequences of all coding sequences of the Goura genomes and of the reference genomes. We used the script '__extract_proteins.py__' to produce protein sequence FASTA-files for each Goura species by executing the following command:
+
+~~~bash
+python3 extract_proteins.py data/raw/genera/Goura data/raw/genera/Goura/fasta
+~~~
+
+We then made the extract_proteins.py script possible to run as a command-line tool by adding to it the line '#!/usr/bin/env python3', granting it execute permission by running 'chmod +x src/preprocessing/extract_proteins.py' and adding scr/preprocessing/ to PATH in our .bashrc file.
+
+We then, executed the following command, to extract all protein coding seqeunces from the reference genomes:
+
+~~~bash
+extract_proteins.py data/raw/reference_genomes data/raw/reference_genomes/fasta
+~~~
+
+We used the program OrthoFinder v. 2.5.5 to find gene orthologs and gene duplication events among the mitogenomes of either the Goura species or the reference genomes. We first ran OrthoFinder on the reference genomes, passing orthofinder the maximum parsimony mitogenome tree rooted on Ectopistes migratorius '__data/processed/mitochondria.tree.for_orthofinder.newick__', with '.1' added to the genome names so they matched with the other file names, and the directory with protein sequences of those species '__data/raw/reference_genomes/fasta__':
+
+~~~bash
+orthofinder -s data/processed/mitochondria_tree.for_orthofinder.newick -f data/raw/reference_genomes/fasta
+~~~
+
+We then ran OrthoFinder on the 40 Goura genomes and found that all 13 mitogenes were single copy ortholouges across all four species. The results are in '__data/raw/genera/Goura/fasta__'. OrthoFinder could not create a correct rooted tree from only the Goura species.
+
+## Mitogenomes Gene Duplications
+
+The OrthoFinder results revealed that no gene duplications had occured among our species. As illustrated by the species tree below, where the number after the underscore, '_', of each node label (N0,N1..) represents the number of duplications on the branch leading to that node, the number of duplications are zero along all branches.
+
+![Reference Genomes Gene Duplications](../../results/figures/reference_genomes.OrthoFinder_gene_duplications.png)
+
+We ran OrthoFinder on the 40 Goura genomes as well and found that all 13 mitogenes were single copy ortholouges across all four species. The results are in '__data/raw/genera/Goura/fasta__'.
+
+## Cytochrome B Haplotypes Across Time
+
+See src/analysis/cytochrome_B_haplotypes.R
 
 [^1]:[Consus Trees, Week 5, 22115 - Computational Molecular Evolution](https://teaching.healthtech.dtu.dk/22115/index.php/Consensus_Trees)
+
 

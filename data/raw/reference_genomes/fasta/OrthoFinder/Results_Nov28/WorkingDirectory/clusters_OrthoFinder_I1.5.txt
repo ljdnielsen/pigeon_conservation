@@ -1,0 +1,21 @@
+# cline: mcl /home/laniel/projects/pigeon_conservation/data/raw/reference_genomes/fasta/OrthoFinder/Results_Nov28_2/WorkingDirectory/OrthoFinder_graph.txt "-I" "1.5" "-o" "/home/laniel/projects/pigeon_conservation/data/raw/reference_genomes/fasta/OrthoFinder/Results_Nov28_2/WorkingDirectory/clusters_OrthoFinder_I1.5.txt" "-te" "1" "-V" "all"
+(mclheader
+mcltype matrix
+dimensions 117x13
+)
+(mclmatrix
+begin
+0   0 13 26 39 52 65 78 91 104 $
+1   1 14 27 40 53 66 79 92 105 $
+2   2 15 28 41 54 67 80 93 106 $
+3   3 16 29 42 55 68 81 94 107 $
+4   4 17 30 43 56 69 82 95 108 $
+5   5 18 31 44 57 70 83 96 109 $
+6   6 19 32 45 58 71 84 97 110 $
+7   7 20 33 46 59 72 85 98 111 $
+8   8 21 34 47 60 73 86 99 112 $
+9   9 22 35 48 61 74 87 100 113 $
+10  10 23 36 49 62 75 88 101 114 $
+11  11 24 37 50 63 76 89 102 115 $
+12  12 25 38 51 64 77 90 103 116 $
+)

@@ -5,7 +5,7 @@
 This document details the process and findings related to the origins of the biological samples used in our bioinformatic analysis. It includes details on the extraction of source qualifiers from GenBank files of MtDNA samples, observations from the data, and contextual historical information relevant to the samples.
 
 ## Extraction of Source Qualifiers from MtDNA GenBank Files
-We utilized the script '__extract_qualifers.py__' to extract relevant sample information from each GenBank file. The targeted data included 'organism', 'country', 'collection_date', 'collected_by', and 'specimen_voucher'. The extraction was executed with the following command:
+We utilized the script ['extract_qualifers.py'](../../src/preprocessing/extract_qualifiers.py) to extract relevant sample information from each GenBank file. The targeted data included 'organism', 'country', 'collection_date', 'collected_by', and 'specimen_voucher'. The extraction was executed with the following command and saved to ['sample_origins.csv'](../../data/metadata/sample_origins.csv):
 
 ~~~bash
 python3 src/preprocessing/extract_qualifiers.py --directory data/raw --annotations organism --qualifiers country collection_date collected_by specimen_voucher > data/metadata/sample_origins.csv
@@ -45,7 +45,7 @@ calling upon two Dyaks who happened to be in the house at the time to
 accompany me & ordering Charles to bring all the ammunition after me as
 quick as possible.
 
-The vast contribution that Allen have made to specimen collection is made clear by Rookmaaker's and van Wyhe's recounting that he collected 6198 insects, correspongin to more then a hundred individuals per day, in a two-and-a-half month period between 4 August and 18 October 1855, only a year after arriving in the Malay Archipelago. [^1]
+The vast contribution that Allen have made to specimen collection is made clear by Rookmaaker's and van Wyhe's recounting that he in a two-and-a-half month perioed between 4 August and 18 October 1855 collected 6198 insects, corresponding to more then a hundred individuals per day, only a year after arriving in the Malay Archipelago.[^1]
 
 
 [^1]: Rookmaaker, Kees & van Wyhe, John. (2012), ["In Alfred Russel Wallace's Shadow: His Forgotten Assistant, Charles Allen (1839-1892)"](https://www.jstor.org/stable/24894190) *Journal of the Malaysian Branch of the Royal Asiatic Society*, 2012: vol. 85, Issue 2, pp. 17-54

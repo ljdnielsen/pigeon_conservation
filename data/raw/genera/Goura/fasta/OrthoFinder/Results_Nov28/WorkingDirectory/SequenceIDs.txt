@@ -1,0 +1,520 @@
+0_0: CEF52441.1|nad1|NADH dehydrogenase subunit 1
+0_1: CEF52442.1|nad2|NADH dehydrogenase subunit 2
+0_2: CEF52443.1|cox1|cytochrome c oxidase subunit I
+0_3: CEF52444.1|cox2|C-terminal domain of Cytochrome c Oxidase subunit II
+0_4: CEF52445.1|atp8|ATP synthase F0 subunit 8
+0_5: CEF52446.1|atp6|ATP synthase F0 subunit 6
+0_6: CEF52447.1|cox3|cytochrome c oxidase subunit III
+0_7: CEF52448.1|nad3|NADH dehydrogenase subunit 3
+0_8: CEF52449.1|nad4L|NADH dehydrogenase subunit 4L
+0_9: CEF52450.1|nad4|NADH dehydrogenase subunit 4
+0_10: CEF52451.1|nad5|NADH dehydrogenase subunit 5
+0_11: CEF52452.1|cob|cytochrome b
+0_12: CEF52453.1|nad6|NADH dehydrogenase subunit 6
+1_0: CEF52454.1|nad1|NADH dehydrogenase subunit 1
+1_1: CEF52455.1|nad2|NADH dehydrogenase subunit 2
+1_2: CEF52456.1|cox1|cytochrome c oxidase subunit I
+1_3: CEF52457.1|cox2|C-terminal domain of Cytochrome c Oxidase subunit II
+1_4: CEF52458.1|atp8|ATP synthase F0 subunit 8
+1_5: CEF52459.1|atp6|ATP synthase F0 subunit 6
+1_6: CEF52460.1|cox3|cytochrome c oxidase subunit III
+1_7: CEF52461.1|nad3|NADH dehydrogenase subunit 3
+1_8: CEF52462.1|nad4L|NADH dehydrogenase subunit 4L
+1_9: CEF52463.1|nad4|NADH dehydrogenase subunit 4
+1_10: CEF52464.1|nad5|NADH dehydrogenase subunit 5
+1_11: CEF52465.1|cob|cytochrome b
+1_12: CEF52466.1|nad6|NADH dehydrogenase subunit 6
+2_0: ATZ68967.1|ND1|NADH dehydrogenase subunit 1
+2_1: ATZ68966.1|ND2|NADH dehydrogenase subunit 2
+2_2: ATZ68963.1|COX1|cytochrome c oxidase subunit I
+2_3: ATZ68969.1|COX2|cytochrome c oxidase subunit II
+2_4: ATZ68974.1|ATP8|ATP synthase subunit 8
+2_5: ATZ68970.1|ATP6|ATP synthase subunit 6
+2_6: ATZ68968.1|COX3|cytochrome c oxidase subunit III
+2_7: ATZ68972.1|ND3|NADH dehydrogenase subunit 3
+2_8: ATZ68973.1|ND4L|NADH dehydrogenase subunit 4L
+2_9: ATZ68964.1|ND4|NADH dehydrogenase subunit 4
+2_10: ATZ68962.1|ND5|NADH dehydrogenase subunit 5
+2_11: ATZ68965.1|CYTB|cytochrome b
+2_12: ATZ68971.1|ND6|NADH dehydrogenase subunit 6
+3_0: ATZ68980.1|ND1|NADH dehydrogenase subunit 1
+3_1: ATZ68979.1|ND2|NADH dehydrogenase subunit 2
+3_2: ATZ68976.1|COX1|cytochrome c oxidase subunit I
+3_3: ATZ68982.1|COX2|cytochrome c oxidase subunit II
+3_4: ATZ68987.1|ATP8|ATP synthase subunit 8
+3_5: ATZ68983.1|ATP6|ATP synthase subunit 6
+3_6: ATZ68981.1|COX3|cytochrome c oxidase subunit III
+3_7: ATZ68985.1|ND3|NADH dehydrogenase subunit 3
+3_8: ATZ68986.1|ND4L|NADH dehydrogenase subunit 4L
+3_9: ATZ68977.1|ND4|NADH dehydrogenase subunit 4
+3_10: ATZ68975.1|ND5|NADH dehydrogenase subunit 5
+3_11: ATZ68978.1|CYTB|cytochrome b
+3_12: ATZ68984.1|ND6|NADH dehydrogenase subunit 6
+4_0: ATZ68993.1|ND1|NADH dehydrogenase subunit 1
+4_1: ATZ68992.1|ND2|NADH dehydrogenase subunit 2
+4_2: ATZ68989.1|COX1|cytochrome c oxidase subunit I
+4_3: ATZ68995.1|COX2|cytochrome c oxidase subunit II
+4_4: ATZ69000.1|ATP8|ATP synthase subunit 8
+4_5: ATZ68996.1|ATP6|ATP synthase subunit 6
+4_6: ATZ68994.1|COX3|cytochrome c oxidase subunit III
+4_7: ATZ68998.1|ND3|NADH dehydrogenase subunit 3
+4_8: ATZ68999.1|ND4L|NADH dehydrogenase subunit 4L
+4_9: ATZ68990.1|ND4|NADH dehydrogenase subunit 4
+4_10: ATZ68988.1|ND5|NADH dehydrogenase subunit 5
+4_11: ATZ68991.1|CYTB|cytochrome b
+4_12: ATZ68997.1|ND6|NADH dehydrogenase subunit 6
+5_0: ATZ69006.1|ND1|NADH dehydrogenase subunit 1
+5_1: ATZ69005.1|ND2|NADH dehydrogenase subunit 2
+5_2: ATZ69002.1|COX1|cytochrome c oxidase subunit I
+5_3: ATZ69008.1|COX2|cytochrome c oxidase subunit II
+5_4: ATZ69013.1|ATP8|ATP synthase subunit 8
+5_5: ATZ69009.1|ATP6|ATP synthase subunit 6
+5_6: ATZ69007.1|COX3|cytochrome c oxidase subunit III
+5_7: ATZ69011.1|ND3|NADH dehydrogenase subunit 3
+5_8: ATZ69012.1|ND4L|NADH dehydrogenase subunit 4L
+5_9: ATZ69003.1|ND4|NADH dehydrogenase subunit 4
+5_10: ATZ69001.1|ND5|NADH dehydrogenase subunit 5
+5_11: ATZ69004.1|CYTB|cytochrome b
+5_12: ATZ69010.1|ND6|NADH dehydrogenase subunit 6
+6_0: ATZ69019.1|ND1|NADH dehydrogenase subunit 1
+6_1: ATZ69018.1|ND2|NADH dehydrogenase subunit 2
+6_2: ATZ69015.1|COX1|cytochrome c oxidase subunit I
+6_3: ATZ69021.1|COX2|cytochrome c oxidase subunit II
+6_4: ATZ69026.1|ATP8|ATP synthase subunit 8
+6_5: ATZ69022.1|ATP6|ATP synthase subunit 6
+6_6: ATZ69020.1|COX3|cytochrome c oxidase subunit III
+6_7: ATZ69024.1|ND3|NADH dehydrogenase subunit 3
+6_8: ATZ69025.1|ND4L|NADH dehydrogenase subunit 4L
+6_9: ATZ69016.1|ND4|NADH dehydrogenase subunit 4
+6_10: ATZ69014.1|ND5|NADH dehydrogenase subunit 5
+6_11: ATZ69017.1|CYTB|cytochrome b
+6_12: ATZ69023.1|ND6|NADH dehydrogenase subunit 6
+7_0: ATZ69032.1|ND1|NADH dehydrogenase subunit 1
+7_1: ATZ69031.1|ND2|NADH dehydrogenase subunit 2
+7_2: ATZ69028.1|COX1|cytochrome c oxidase subunit I
+7_3: ATZ69034.1|COX2|cytochrome c oxidase subunit II
+7_4: ATZ69039.1|ATP8|ATP synthase subunit 8
+7_5: ATZ69035.1|ATP6|ATP synthase subunit 6
+7_6: ATZ69033.1|COX3|cytochrome c oxidase subunit III
+7_7: ATZ69037.1|ND3|NADH dehydrogenase subunit 3
+7_8: ATZ69038.1|ND4L|NADH dehydrogenase subunit 4L
+7_9: ATZ69029.1|ND4|NADH dehydrogenase subunit 4
+7_10: ATZ69027.1|ND5|NADH dehydrogenase subunit 5
+7_11: ATZ69030.1|CYTB|cytochrome b
+7_12: ATZ69036.1|ND6|NADH dehydrogenase subunit 6
+8_0: ATZ69045.1|ND1|NADH dehydrogenase subunit 1
+8_1: ATZ69044.1|ND2|NADH dehydrogenase subunit 2
+8_2: ATZ69041.1|COX1|cytochrome c oxidase subunit I
+8_3: ATZ69047.1|COX2|cytochrome c oxidase subunit II
+8_4: ATZ69052.1|ATP8|ATP synthase subunit 8
+8_5: ATZ69048.1|ATP6|ATP synthase subunit 6
+8_6: ATZ69046.1|COX3|cytochrome c oxidase subunit III
+8_7: ATZ69050.1|ND3|NADH dehydrogenase subunit 3
+8_8: ATZ69051.1|ND4L|NADH dehydrogenase subunit 4L
+8_9: ATZ69042.1|ND4|NADH dehydrogenase subunit 4
+8_10: ATZ69040.1|ND5|NADH dehydrogenase subunit 5
+8_11: ATZ69043.1|CYTB|cytochrome b
+8_12: ATZ69049.1|ND6|NADH dehydrogenase subunit 6
+9_0: ATZ69058.1|ND1|NADH dehydrogenase subunit 1
+9_1: ATZ69057.1|ND2|NADH dehydrogenase subunit 2
+9_2: ATZ69054.1|COX1|cytochrome c oxidase subunit I
+9_3: ATZ69060.1|COX2|cytochrome c oxidase subunit II
+9_4: ATZ69065.1|ATP8|ATP synthase subunit 8
+9_5: ATZ69061.1|ATP6|ATP synthase subunit 6
+9_6: ATZ69059.1|COX3|cytochrome c oxidase subunit III
+9_7: ATZ69063.1|ND3|NADH dehydrogenase subunit 3
+9_8: ATZ69064.1|ND4L|NADH dehydrogenase subunit 4L
+9_9: ATZ69055.1|ND4|NADH dehydrogenase subunit 4
+9_10: ATZ69053.1|ND5|NADH dehydrogenase subunit 5
+9_11: ATZ69056.1|CYTB|cytochrome b
+9_12: ATZ69062.1|ND6|NADH dehydrogenase subunit 6
+10_0: ATZ69071.1|ND1|NADH dehydrogenase subunit 1
+10_1: ATZ69070.1|ND2|NADH dehydrogenase subunit 2
+10_2: ATZ69067.1|COX1|cytochrome c oxidase subunit I
+10_3: ATZ69073.1|COX2|cytochrome c oxidase subunit II
+10_4: ATZ69078.1|ATP8|ATP synthase subunit 8
+10_5: ATZ69074.1|ATP6|ATP synthase subunit 6
+10_6: ATZ69072.1|COX3|cytochrome c oxidase subunit III
+10_7: ATZ69076.1|ND3|NADH dehydrogenase subunit 3
+10_8: ATZ69077.1|ND4L|NADH dehydrogenase subunit 4L
+10_9: ATZ69068.1|ND4|NADH dehydrogenase subunit 4
+10_10: ATZ69066.1|ND5|NADH dehydrogenase subunit 5
+10_11: ATZ69069.1|CYTB|cytochrome b
+10_12: ATZ69075.1|ND6|NADH dehydrogenase subunit 6
+11_0: ATZ69097.1|ND1|NADH dehydrogenase subunit 1
+11_1: ATZ69096.1|ND2|NADH dehydrogenase subunit 2
+11_2: ATZ69093.1|COX1|cytochrome c oxidase subunit I
+11_3: ATZ69099.1|COX2|cytochrome c oxidase subunit II
+11_4: ATZ69104.1|ATP8|ATP synthase subunit 8
+11_5: ATZ69100.1|ATP6|ATP synthase subunit 6
+11_6: ATZ69098.1|COX3|cytochrome c oxidase subunit III
+11_7: ATZ69102.1|ND3|NADH dehydrogenase subunit 3
+11_8: ATZ69103.1|ND4L|NADH dehydrogenase subunit 4L
+11_9: ATZ69094.1|ND4|NADH dehydrogenase subunit 4
+11_10: ATZ69092.1|ND5|NADH dehydrogenase subunit 5
+11_11: ATZ69095.1|CYTB|cytochrome b
+11_12: ATZ69101.1|ND6|NADH dehydrogenase subunit 6
+12_0: ATZ69110.1|ND1|NADH dehydrogenase subunit 1
+12_1: ATZ69109.1|ND2|NADH dehydrogenase subunit 2
+12_2: ATZ69106.1|COX1|cytochrome c oxidase subunit I
+12_3: ATZ69112.1|COX2|cytochrome c oxidase subunit II
+12_4: ATZ69117.1|ATP8|ATP synthase subunit 8
+12_5: ATZ69113.1|ATP6|ATP synthase subunit 6
+12_6: ATZ69111.1|COX3|cytochrome c oxidase subunit III
+12_7: ATZ69115.1|ND3|NADH dehydrogenase subunit 3
+12_8: ATZ69116.1|ND4L|NADH dehydrogenase subunit 4L
+12_9: ATZ69107.1|ND4|NADH dehydrogenase subunit 4
+12_10: ATZ69105.1|ND5|NADH dehydrogenase subunit 5
+12_11: ATZ69108.1|CYTB|cytochrome b
+12_12: ATZ69114.1|ND6|NADH dehydrogenase subunit 6
+13_0: ATZ69123.1|ND1|NADH dehydrogenase subunit 1
+13_1: ATZ69122.1|ND2|NADH dehydrogenase subunit 2
+13_2: ATZ69119.1|COX1|cytochrome c oxidase subunit I
+13_3: ATZ69125.1|COX2|cytochrome c oxidase subunit II
+13_4: ATZ69130.1|ATP8|ATP synthase subunit 8
+13_5: ATZ69126.1|ATP6|ATP synthase subunit 6
+13_6: ATZ69124.1|COX3|cytochrome c oxidase subunit III
+13_7: ATZ69128.1|ND3|NADH dehydrogenase subunit 3
+13_8: ATZ69129.1|ND4L|NADH dehydrogenase subunit 4L
+13_9: ATZ69120.1|ND4|NADH dehydrogenase subunit 4
+13_10: ATZ69118.1|ND5|NADH dehydrogenase subunit 5
+13_11: ATZ69121.1|CYTB|cytochrome b
+13_12: ATZ69127.1|ND6|NADH dehydrogenase subunit 6
+14_0: ATZ69136.1|ND1|NADH dehydrogenase subunit 1
+14_1: ATZ69135.1|ND2|NADH dehydrogenase subunit 2
+14_2: ATZ69132.1|COX1|cytochrome c oxidase subunit I
+14_3: ATZ69138.1|COX2|cytochrome c oxidase subunit II
+14_4: ATZ69143.1|ATP8|ATP synthase subunit 8
+14_5: ATZ69139.1|ATP6|ATP synthase subunit 6
+14_6: ATZ69137.1|COX3|cytochrome c oxidase subunit III
+14_7: ATZ69141.1|ND3|NADH dehydrogenase subunit 3
+14_8: ATZ69142.1|ND4L|NADH dehydrogenase subunit 4L
+14_9: ATZ69133.1|ND4|NADH dehydrogenase subunit 4
+14_10: ATZ69131.1|ND5|NADH dehydrogenase subunit 5
+14_11: ATZ69134.1|CYTB|cytochrome b
+14_12: ATZ69140.1|ND6|NADH dehydrogenase subunit 6
+15_0: ATZ69149.1|ND1|NADH dehydrogenase subunit 1
+15_1: ATZ69148.1|ND2|NADH dehydrogenase subunit 2
+15_2: ATZ69145.1|COX1|cytochrome c oxidase subunit I
+15_3: ATZ69151.1|COX2|cytochrome c oxidase subunit II
+15_4: ATZ69156.1|ATP8|ATP synthase subunit 8
+15_5: ATZ69152.1|ATP6|ATP synthase subunit 6
+15_6: ATZ69150.1|COX3|cytochrome c oxidase subunit III
+15_7: ATZ69154.1|ND3|NADH dehydrogenase subunit 3
+15_8: ATZ69155.1|ND4L|NADH dehydrogenase subunit 4L
+15_9: ATZ69146.1|ND4|NADH dehydrogenase subunit 4
+15_10: ATZ69144.1|ND5|NADH dehydrogenase subunit 5
+15_11: ATZ69147.1|CYTB|cytochrome b
+15_12: ATZ69153.1|ND6|NADH dehydrogenase subunit 6
+16_0: ATZ69162.1|ND1|NADH dehydrogenase subunit 1
+16_1: ATZ69161.1|ND2|NADH dehydrogenase subunit 2
+16_2: ATZ69158.1|COX1|cytochrome c oxidase subunit I
+16_3: ATZ69164.1|COX2|cytochrome c oxidase subunit II
+16_4: ATZ69169.1|ATP8|ATP synthase subunit 8
+16_5: ATZ69165.1|ATP6|ATP synthase subunit 6
+16_6: ATZ69163.1|COX3|cytochrome c oxidase subunit III
+16_7: ATZ69167.1|ND3|NADH dehydrogenase subunit 3
+16_8: ATZ69168.1|ND4L|NADH dehydrogenase subunit 4L
+16_9: ATZ69159.1|ND4|NADH dehydrogenase subunit 4
+16_10: ATZ69157.1|ND5|NADH dehydrogenase subunit 5
+16_11: ATZ69160.1|CYTB|cytochrome b
+16_12: ATZ69166.1|ND6|NADH dehydrogenase subunit 6
+17_0: ATZ69175.1|ND1|NADH dehydrogenase subunit 1
+17_1: ATZ69174.1|ND2|NADH dehydrogenase subunit 2
+17_2: ATZ69171.1|COX1|cytochrome c oxidase subunit I
+17_3: ATZ69177.1|COX2|cytochrome c oxidase subunit II
+17_4: ATZ69182.1|ATP8|ATP synthase subunit 8
+17_5: ATZ69178.1|ATP6|ATP synthase subunit 6
+17_6: ATZ69176.1|COX3|cytochrome c oxidase subunit III
+17_7: ATZ69180.1|ND3|NADH dehydrogenase subunit 3
+17_8: ATZ69181.1|ND4L|NADH dehydrogenase subunit 4L
+17_9: ATZ69172.1|ND4|NADH dehydrogenase subunit 4
+17_10: ATZ69170.1|ND5|NADH dehydrogenase subunit 5
+17_11: ATZ69173.1|CYTB|cytochrome b
+17_12: ATZ69179.1|ND6|NADH dehydrogenase subunit 6
+18_0: ATZ69188.1|ND1|NADH dehydrogenase subunit 1
+18_1: ATZ69187.1|ND2|NADH dehydrogenase subunit 2
+18_2: ATZ69184.1|COX1|cytochrome c oxidase subunit I
+18_3: ATZ69190.1|COX2|cytochrome c oxidase subunit II
+18_4: ATZ69195.1|ATP8|ATP synthase subunit 8
+18_5: ATZ69191.1|ATP6|ATP synthase subunit 6
+18_6: ATZ69189.1|COX3|cytochrome c oxidase subunit III
+18_7: ATZ69193.1|ND3|NADH dehydrogenase subunit 3
+18_8: ATZ69194.1|ND4L|NADH dehydrogenase subunit 4L
+18_9: ATZ69185.1|ND4|NADH dehydrogenase subunit 4
+18_10: ATZ69183.1|ND5|NADH dehydrogenase subunit 5
+18_11: ATZ69186.1|CYTB|cytochrome b
+18_12: ATZ69192.1|ND6|NADH dehydrogenase subunit 6
+19_0: ATZ69201.1|ND1|NADH dehydrogenase subunit 1
+19_1: ATZ69200.1|ND2|NADH dehydrogenase subunit 2
+19_2: ATZ69197.1|COX1|cytochrome c oxidase subunit I
+19_3: ATZ69203.1|COX2|cytochrome c oxidase subunit II
+19_4: ATZ69208.1|ATP8|ATP synthase subunit 8
+19_5: ATZ69204.1|ATP6|ATP synthase subunit 6
+19_6: ATZ69202.1|COX3|cytochrome c oxidase subunit III
+19_7: ATZ69206.1|ND3|NADH dehydrogenase subunit 3
+19_8: ATZ69207.1|ND4L|NADH dehydrogenase subunit 4L
+19_9: ATZ69198.1|ND4|NADH dehydrogenase subunit 4
+19_10: ATZ69196.1|ND5|NADH dehydrogenase subunit 5
+19_11: ATZ69199.1|CYTB|cytochrome b
+19_12: ATZ69205.1|ND6|NADH dehydrogenase subunit 6
+20_0: ATZ69214.1|ND1|NADH dehydrogenase subunit 1
+20_1: ATZ69213.1|ND2|NADH dehydrogenase subunit 2
+20_2: ATZ69210.1|COX1|cytochrome c oxidase subunit I
+20_3: ATZ69216.1|COX2|cytochrome c oxidase subunit II
+20_4: ATZ69221.1|ATP8|ATP synthase subunit 8
+20_5: ATZ69217.1|ATP6|ATP synthase subunit 6
+20_6: ATZ69215.1|COX3|cytochrome c oxidase subunit III
+20_7: ATZ69219.1|ND3|NADH dehydrogenase subunit 3
+20_8: ATZ69220.1|ND4L|NADH dehydrogenase subunit 4L
+20_9: ATZ69211.1|ND4|NADH dehydrogenase subunit 4
+20_10: ATZ69209.1|ND5|NADH dehydrogenase subunit 5
+20_11: ATZ69212.1|CYTB|cytochrome b
+20_12: ATZ69218.1|ND6|NADH dehydrogenase subunit 6
+21_0: ATZ69227.1|ND1|NADH dehydrogenase subunit 1
+21_1: ATZ69226.1|ND2|NADH dehydrogenase subunit 2
+21_2: ATZ69223.1|COX1|cytochrome c oxidase subunit I
+21_3: ATZ69229.1|COX2|cytochrome c oxidase subunit II
+21_4: ATZ69234.1|ATP8|ATP synthase subunit 8
+21_5: ATZ69230.1|ATP6|ATP synthase subunit 6
+21_6: ATZ69228.1|COX3|cytochrome c oxidase subunit III
+21_7: ATZ69232.1|ND3|NADH dehydrogenase subunit 3
+21_8: ATZ69233.1|ND4L|NADH dehydrogenase subunit 4L
+21_9: ATZ69224.1|ND4|NADH dehydrogenase subunit 4
+21_10: ATZ69222.1|ND5|NADH dehydrogenase subunit 5
+21_11: ATZ69225.1|CYTB|cytochrome b
+21_12: ATZ69231.1|ND6|NADH dehydrogenase subunit 6
+22_0: ATZ69240.1|ND1|NADH dehydrogenase subunit 1
+22_1: ATZ69239.1|ND2|NADH dehydrogenase subunit 2
+22_2: ATZ69236.1|COX1|cytochrome c oxidase subunit I
+22_3: ATZ69242.1|COX2|cytochrome c oxidase subunit II
+22_4: ATZ69247.1|ATP8|ATP synthase subunit 8
+22_5: ATZ69243.1|ATP6|ATP synthase subunit 6
+22_6: ATZ69241.1|COX3|cytochrome c oxidase subunit III
+22_7: ATZ69245.1|ND3|NADH dehydrogenase subunit 3
+22_8: ATZ69246.1|ND4L|NADH dehydrogenase subunit 4L
+22_9: ATZ69237.1|ND4|NADH dehydrogenase subunit 4
+22_10: ATZ69235.1|ND5|NADH dehydrogenase subunit 5
+22_11: ATZ69238.1|CYTB|cytochrome b
+22_12: ATZ69244.1|ND6|NADH dehydrogenase subunit 6
+23_0: ATZ69253.1|ND1|NADH dehydrogenase subunit 1
+23_1: ATZ69252.1|ND2|NADH dehydrogenase subunit 2
+23_2: ATZ69249.1|COX1|cytochrome c oxidase subunit I
+23_3: ATZ69255.1|COX2|cytochrome c oxidase subunit II
+23_4: ATZ69260.1|ATP8|ATP synthase subunit 8
+23_5: ATZ69256.1|ATP6|ATP synthase subunit 6
+23_6: ATZ69254.1|COX3|cytochrome c oxidase subunit III
+23_7: ATZ69258.1|ND3|NADH dehydrogenase subunit 3
+23_8: ATZ69259.1|ND4L|NADH dehydrogenase subunit 4L
+23_9: ATZ69250.1|ND4|NADH dehydrogenase subunit 4
+23_10: ATZ69248.1|ND5|NADH dehydrogenase subunit 5
+23_11: ATZ69251.1|CYTB|cytochrome b
+23_12: ATZ69257.1|ND6|NADH dehydrogenase subunit 6
+24_0: ATZ69266.1|ND1|NADH dehydrogenase subunit 1
+24_1: ATZ69265.1|ND2|NADH dehydrogenase subunit 2
+24_2: ATZ69262.1|COX1|cytochrome c oxidase subunit I
+24_3: ATZ69268.1|COX2|cytochrome c oxidase subunit II
+24_4: ATZ69273.1|ATP8|ATP synthase subunit 8
+24_5: ATZ69269.1|ATP6|ATP synthase subunit 6
+24_6: ATZ69267.1|COX3|cytochrome c oxidase subunit III
+24_7: ATZ69271.1|ND3|NADH dehydrogenase subunit 3
+24_8: ATZ69272.1|ND4L|NADH dehydrogenase subunit 4L
+24_9: ATZ69263.1|ND4|NADH dehydrogenase subunit 4
+24_10: ATZ69261.1|ND5|NADH dehydrogenase subunit 5
+24_11: ATZ69264.1|CYTB|cytochrome b
+24_12: ATZ69270.1|ND6|NADH dehydrogenase subunit 6
+25_0: ATZ69279.1|ND1|NADH dehydrogenase subunit 1
+25_1: ATZ69278.1|ND2|NADH dehydrogenase subunit 2
+25_2: ATZ69275.1|COX1|cytochrome c oxidase subunit I
+25_3: ATZ69281.1|COX2|cytochrome c oxidase subunit II
+25_4: ATZ69286.1|ATP8|ATP synthase subunit 8
+25_5: ATZ69282.1|ATP6|ATP synthase subunit 6
+25_6: ATZ69280.1|COX3|cytochrome c oxidase subunit III
+25_7: ATZ69284.1|ND3|NADH dehydrogenase subunit 3
+25_8: ATZ69285.1|ND4L|NADH dehydrogenase subunit 4L
+25_9: ATZ69276.1|ND4|NADH dehydrogenase subunit 4
+25_10: ATZ69274.1|ND5|NADH dehydrogenase subunit 5
+25_11: ATZ69277.1|CYTB|cytochrome b
+25_12: ATZ69283.1|ND6|NADH dehydrogenase subunit 6
+26_0: ATZ69292.1|ND1|NADH dehydrogenase subunit 1
+26_1: ATZ69291.1|ND2|NADH dehydrogenase subunit 2
+26_2: ATZ69288.1|COX1|cytochrome c oxidase subunit I
+26_3: ATZ69294.1|COX2|cytochrome c oxidase subunit II
+26_4: ATZ69299.1|ATP8|ATP synthase subunit 8
+26_5: ATZ69295.1|ATP6|ATP synthase subunit 6
+26_6: ATZ69293.1|COX3|cytochrome c oxidase subunit III
+26_7: ATZ69297.1|ND3|NADH dehydrogenase subunit 3
+26_8: ATZ69298.1|ND4L|NADH dehydrogenase subunit 4L
+26_9: ATZ69289.1|ND4|NADH dehydrogenase subunit 4
+26_10: ATZ69287.1|ND5|NADH dehydrogenase subunit 5
+26_11: ATZ69290.1|CYTB|cytochrome b
+26_12: ATZ69296.1|ND6|NADH dehydrogenase subunit 6
+27_0: ATZ69305.1|ND1|NADH dehydrogenase subunit 1
+27_1: ATZ69304.1|ND2|NADH dehydrogenase subunit 2
+27_2: ATZ69301.1|COX1|cytochrome c oxidase subunit I
+27_3: ATZ69307.1|COX2|cytochrome c oxidase subunit II
+27_4: ATZ69312.1|ATP8|ATP synthase subunit 8
+27_5: ATZ69308.1|ATP6|ATP synthase subunit 6
+27_6: ATZ69306.1|COX3|cytochrome c oxidase subunit III
+27_7: ATZ69310.1|ND3|NADH dehydrogenase subunit 3
+27_8: ATZ69311.1|ND4L|NADH dehydrogenase subunit 4L
+27_9: ATZ69302.1|ND4|NADH dehydrogenase subunit 4
+27_10: ATZ69300.1|ND5|NADH dehydrogenase subunit 5
+27_11: ATZ69303.1|CYTB|cytochrome b
+27_12: ATZ69309.1|ND6|NADH dehydrogenase subunit 6
+28_0: ATZ69318.1|ND1|NADH dehydrogenase subunit 1
+28_1: ATZ69317.1|ND2|NADH dehydrogenase subunit 2
+28_2: ATZ69314.1|COX1|cytochrome c oxidase subunit I
+28_3: ATZ69320.1|COX2|cytochrome c oxidase subunit II
+28_4: ATZ69325.1|ATP8|ATP synthase subunit 8
+28_5: ATZ69321.1|ATP6|ATP synthase subunit 6
+28_6: ATZ69319.1|COX3|cytochrome c oxidase subunit III
+28_7: ATZ69323.1|ND3|NADH dehydrogenase subunit 3
+28_8: ATZ69324.1|ND4L|NADH dehydrogenase subunit 4L
+28_9: ATZ69315.1|ND4|NADH dehydrogenase subunit 4
+28_10: ATZ69313.1|ND5|NADH dehydrogenase subunit 5
+28_11: ATZ69316.1|CYTB|cytochrome b
+28_12: ATZ69322.1|ND6|NADH dehydrogenase subunit 6
+29_0: ATZ69331.1|ND1|NADH dehydrogenase subunit 1
+29_1: ATZ69330.1|ND2|NADH dehydrogenase subunit 2
+29_2: ATZ69327.1|COX1|cytochrome c oxidase subunit I
+29_3: ATZ69333.1|COX2|cytochrome c oxidase subunit II
+29_4: ATZ69338.1|ATP8|ATP synthase subunit 8
+29_5: ATZ69334.1|ATP6|ATP synthase subunit 6
+29_6: ATZ69332.1|COX3|cytochrome c oxidase subunit III
+29_7: ATZ69336.1|ND3|NADH dehydrogenase subunit 3
+29_8: ATZ69337.1|ND4L|NADH dehydrogenase subunit 4L
+29_9: ATZ69328.1|ND4|NADH dehydrogenase subunit 4
+29_10: ATZ69326.1|ND5|NADH dehydrogenase subunit 5
+29_11: ATZ69329.1|CYTB|cytochrome b
+29_12: ATZ69335.1|ND6|NADH dehydrogenase subunit 6
+30_0: ATZ69344.1|ND1|NADH dehydrogenase subunit 1
+30_1: ATZ69343.1|ND2|NADH dehydrogenase subunit 2
+30_2: ATZ69340.1|COX1|cytochrome c oxidase subunit I
+30_3: ATZ69346.1|COX2|cytochrome c oxidase subunit II
+30_4: ATZ69351.1|ATP8|ATP synthase subunit 8
+30_5: ATZ69347.1|ATP6|ATP synthase subunit 6
+30_6: ATZ69345.1|COX3|cytochrome c oxidase subunit III
+30_7: ATZ69349.1|ND3|NADH dehydrogenase subunit 3
+30_8: ATZ69350.1|ND4L|NADH dehydrogenase subunit 4L
+30_9: ATZ69341.1|ND4|NADH dehydrogenase subunit 4
+30_10: ATZ69339.1|ND5|NADH dehydrogenase subunit 5
+30_11: ATZ69342.1|CYTB|cytochrome b
+30_12: ATZ69348.1|ND6|NADH dehydrogenase subunit 6
+31_0: ATZ69357.1|ND1|NADH dehydrogenase subunit 1
+31_1: ATZ69356.1|ND2|NADH dehydrogenase subunit 2
+31_2: ATZ69353.1|COX1|cytochrome c oxidase subunit I
+31_3: ATZ69359.1|COX2|cytochrome c oxidase subunit II
+31_4: ATZ69364.1|ATP8|ATP synthase subunit 8
+31_5: ATZ69360.1|ATP6|ATP synthase subunit 6
+31_6: ATZ69358.1|COX3|cytochrome c oxidase subunit III
+31_7: ATZ69362.1|ND3|NADH dehydrogenase subunit 3
+31_8: ATZ69363.1|ND4L|NADH dehydrogenase subunit 4L
+31_9: ATZ69354.1|ND4|NADH dehydrogenase subunit 4
+31_10: ATZ69352.1|ND5|NADH dehydrogenase subunit 5
+31_11: ATZ69355.1|CYTB|cytochrome b
+31_12: ATZ69361.1|ND6|NADH dehydrogenase subunit 6
+32_0: ATZ69370.1|ND1|NADH dehydrogenase subunit 1
+32_1: ATZ69369.1|ND2|NADH dehydrogenase subunit 2
+32_2: ATZ69366.1|COX1|cytochrome c oxidase subunit I
+32_3: ATZ69372.1|COX2|cytochrome c oxidase subunit II
+32_4: ATZ69377.1|ATP8|ATP synthase subunit 8
+32_5: ATZ69373.1|ATP6|ATP synthase subunit 6
+32_6: ATZ69371.1|COX3|cytochrome c oxidase subunit III
+32_7: ATZ69375.1|ND3|NADH dehydrogenase subunit 3
+32_8: ATZ69376.1|ND4L|NADH dehydrogenase subunit 4L
+32_9: ATZ69367.1|ND4|NADH dehydrogenase subunit 4
+32_10: ATZ69365.1|ND5|NADH dehydrogenase subunit 5
+32_11: ATZ69368.1|CYTB|cytochrome b
+32_12: ATZ69374.1|ND6|NADH dehydrogenase subunit 6
+33_0: ATZ69383.1|ND1|NADH dehydrogenase subunit 1
+33_1: ATZ69382.1|ND2|NADH dehydrogenase subunit 2
+33_2: ATZ69379.1|COX1|cytochrome c oxidase subunit I
+33_3: ATZ69385.1|COX2|cytochrome c oxidase subunit II
+33_4: ATZ69390.1|ATP8|ATP synthase subunit 8
+33_5: ATZ69386.1|ATP6|ATP synthase subunit 6
+33_6: ATZ69384.1|COX3|cytochrome c oxidase subunit III
+33_7: ATZ69388.1|ND3|NADH dehydrogenase subunit 3
+33_8: ATZ69389.1|ND4L|NADH dehydrogenase subunit 4L
+33_9: ATZ69380.1|ND4|NADH dehydrogenase subunit 4
+33_10: ATZ69378.1|ND5|NADH dehydrogenase subunit 5
+33_11: ATZ69381.1|CYTB|cytochrome b
+33_12: ATZ69387.1|ND6|NADH dehydrogenase subunit 6
+34_0: ATZ69396.1|ND1|NADH dehydrogenase subunit 1
+34_1: ATZ69395.1|ND2|NADH dehydrogenase subunit 2
+34_2: ATZ69392.1|COX1|cytochrome c oxidase subunit I
+34_3: ATZ69398.1|COX2|cytochrome c oxidase subunit II
+34_4: ATZ69403.1|ATP8|ATP synthase subunit 8
+34_5: ATZ69399.1|ATP6|ATP synthase subunit 6
+34_6: ATZ69397.1|COX3|cytochrome c oxidase subunit III
+34_7: ATZ69401.1|ND3|NADH dehydrogenase subunit 3
+34_8: ATZ69402.1|ND4L|NADH dehydrogenase subunit 4L
+34_9: ATZ69393.1|ND4|NADH dehydrogenase subunit 4
+34_10: ATZ69391.1|ND5|NADH dehydrogenase subunit 5
+34_11: ATZ69394.1|CYTB|cytochrome b
+34_12: ATZ69400.1|ND6|NADH dehydrogenase subunit 6
+35_0: ATZ69409.1|ND1|NADH dehydrogenase subunit 1
+35_1: ATZ69408.1|ND2|NADH dehydrogenase subunit 2
+35_2: ATZ69405.1|COX1|cytochrome c oxidase subunit I
+35_3: ATZ69411.1|COX2|cytochrome c oxidase subunit II
+35_4: ATZ69416.1|ATP8|ATP synthase subunit 8
+35_5: ATZ69412.1|ATP6|ATP synthase subunit 6
+35_6: ATZ69410.1|COX3|cytochrome c oxidase subunit III
+35_7: ATZ69414.1|ND3|NADH dehydrogenase subunit 3
+35_8: ATZ69415.1|ND4L|NADH dehydrogenase subunit 4L
+35_9: ATZ69406.1|ND4|NADH dehydrogenase subunit 4
+35_10: ATZ69404.1|ND5|NADH dehydrogenase subunit 5
+35_11: ATZ69407.1|CYTB|cytochrome b
+35_12: ATZ69413.1|ND6|NADH dehydrogenase subunit 6
+36_0: ATZ69422.1|ND1|NADH dehydrogenase subunit 1
+36_1: ATZ69421.1|ND2|NADH dehydrogenase subunit 2
+36_2: ATZ69418.1|COX1|cytochrome c oxidase subunit I
+36_3: ATZ69424.1|COX2|cytochrome c oxidase subunit II
+36_4: ATZ69429.1|ATP8|ATP synthase subunit 8
+36_5: ATZ69425.1|ATP6|ATP synthase subunit 6
+36_6: ATZ69423.1|COX3|cytochrome c oxidase subunit III
+36_7: ATZ69427.1|ND3|NADH dehydrogenase subunit 3
+36_8: ATZ69428.1|ND4L|NADH dehydrogenase subunit 4L
+36_9: ATZ69419.1|ND4|NADH dehydrogenase subunit 4
+36_10: ATZ69417.1|ND5|NADH dehydrogenase subunit 5
+36_11: ATZ69420.1|CYTB|cytochrome b
+36_12: ATZ69426.1|ND6|NADH dehydrogenase subunit 6
+37_0: YP_009166353.1|ND1|NADH dehydrogenase subunit 1
+37_1: YP_009166354.1|ND2|NADH dehydrogenase subunit 2
+37_2: YP_009166355.1|COX1|cytochrome c oxidase subunit I
+37_3: YP_009166356.1|COX2|cytochrome c oxidase subunit II
+37_4: YP_009166357.1|ATP8|ATP synthase F0 subunit 8
+37_5: YP_009166358.1|ATP6|ATP synthase F0 subunit 6
+37_6: YP_009166359.2|COX3|cytochrome c oxidase subunit III
+37_7: YP_009166360.1|ND3|NADH dehydrogenase subunit 3
+37_8: YP_009166361.2|ND4L|NADH dehydrogenase subunit 4L
+37_9: YP_009166362.2|ND4|NADH dehydrogenase subunit 4
+37_10: YP_009166363.1|ND5|NADH dehydrogenase subunit 5
+37_11: YP_009166364.1|CYTB|cytochrome b
+37_12: YP_009166365.1|ND6|NADH dehydrogenase subunit 6
+38_0: YP_009318402.1|ND1|NADH dehydrogenase subunit 1
+38_1: YP_009318403.1|ND2|NADH dehydrogenase subunit 2
+38_2: YP_009318404.1|COX1|cytochrome c oxidase subunit I
+38_3: YP_009318405.1|COX2|cytochrome c oxidase subunit II
+38_4: YP_009318406.1|ATP8|ATP synthase F0 subunit 8
+38_5: YP_009318407.1|ATP6|ATP synthase F0 subunit 6
+38_6: YP_009318408.1|COX3|cytochrome c oxidase subunit III
+38_7: YP_009318409.1|ND3|NADH dehydrogenase subunit 3
+38_8: YP_009318410.1|ND4L|NADH dehydrogenase subunit 4L
+38_9: YP_009318411.1|ND4|NADH dehydrogenase subunit 4
+38_10: YP_009318412.1|ND5|NADH dehydrogenase subunit 5
+38_11: YP_009318413.1|CYTB|cytochrome b
+38_12: YP_009318414.1|ND6|NADH dehydrogenase subunit 6
+39_0: YP_009449512.1|ND1|NADH dehydrogenase subunit 1
+39_1: YP_009449513.1|ND2|NADH dehydrogenase subunit 2
+39_2: YP_009449514.1|COX1|cytochrome c oxidase subunit I
+39_3: YP_009449515.1|COX2|cytochrome c oxidase subunit II
+39_4: YP_009449516.1|ATP8|ATP synthase F0 subunit 8
+39_5: YP_009449517.1|ATP6|ATP synthase F0 subunit 6
+39_6: YP_009449518.1|COX3|cytochrome c oxidase subunit III
+39_7: YP_009449519.1|ND3|NADH dehydrogenase subunit 3
+39_8: YP_009449520.1|ND4L|NADH dehydrogenase subunit 4L
+39_9: YP_009449521.1|ND4|NADH dehydrogenase subunit 4
+39_10: YP_009449522.1|ND5|NADH dehydrogenase subunit 5
+39_11: YP_009449523.1|CYTB|cytochrome b
+39_12: YP_009449524.1|ND6|NADH dehydrogenase subunit 6

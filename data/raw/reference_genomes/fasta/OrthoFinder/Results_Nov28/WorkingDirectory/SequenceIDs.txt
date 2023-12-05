@@ -1,0 +1,117 @@
+0_0: APA16932.1|ND1|NADH dehydrogenase subunit 1
+0_1: APA16931.1|ND2|NADH dehydrogenase subunit 2
+0_2: APA16928.1|COX1|cytochrome c oxidase subunit I
+0_3: APA16934.1|COX2|cytochrome c oxidase subunit II
+0_4: APA16939.1|ATP8|ATP synthase F0 subunit 8
+0_5: APA16935.1|ATP6|ATP synthase F0 subunit 6
+0_6: APA16933.1|COX3|cytochrome c oxidase subunit III
+0_7: APA16937.1|ND3|NADH dehydrogenase subunit 3
+0_8: APA16938.1|ND4L|NADH dehydrogenase subunit 4L
+0_9: APA16929.1|ND4|NADH dehydrogenase subunit 4
+0_10: APA16927.1|ND5|NADH dehydrogenase subunit 5
+0_11: APA16930.1|CYTB|cytochrome b
+0_12: APA16936.1|ND6|NADH dehydrogenase subunit 6
+1_0: ATZ69240.1|ND1|NADH dehydrogenase subunit 1
+1_1: ATZ69239.1|ND2|NADH dehydrogenase subunit 2
+1_2: ATZ69236.1|COX1|cytochrome c oxidase subunit I
+1_3: ATZ69242.1|COX2|cytochrome c oxidase subunit II
+1_4: ATZ69247.1|ATP8|ATP synthase subunit 8
+1_5: ATZ69243.1|ATP6|ATP synthase subunit 6
+1_6: ATZ69241.1|COX3|cytochrome c oxidase subunit III
+1_7: ATZ69245.1|ND3|NADH dehydrogenase subunit 3
+1_8: ATZ69246.1|ND4L|NADH dehydrogenase subunit 4L
+1_9: ATZ69237.1|ND4|NADH dehydrogenase subunit 4
+1_10: ATZ69235.1|ND5|NADH dehydrogenase subunit 5
+1_11: ATZ69238.1|CYTB|cytochrome b
+1_12: ATZ69244.1|ND6|NADH dehydrogenase subunit 6
+2_0: YP_009166353.1|ND1|NADH dehydrogenase subunit 1
+2_1: YP_009166354.1|ND2|NADH dehydrogenase subunit 2
+2_2: YP_009166355.1|COX1|cytochrome c oxidase subunit I
+2_3: YP_009166356.1|COX2|cytochrome c oxidase subunit II
+2_4: YP_009166357.1|ATP8|ATP synthase F0 subunit 8
+2_5: YP_009166358.1|ATP6|ATP synthase F0 subunit 6
+2_6: YP_009166359.2|COX3|cytochrome c oxidase subunit III
+2_7: YP_009166360.1|ND3|NADH dehydrogenase subunit 3
+2_8: YP_009166361.2|ND4L|NADH dehydrogenase subunit 4L
+2_9: YP_009166362.2|ND4|NADH dehydrogenase subunit 4
+2_10: YP_009166363.1|ND5|NADH dehydrogenase subunit 5
+2_11: YP_009166364.1|CYTB|cytochrome b
+2_12: YP_009166365.1|ND6|NADH dehydrogenase subunit 6
+3_0: YP_009318389.1|ND1|NADH dehydrogenase subunit 1
+3_1: YP_009318390.1|ND2|NADH dehydrogenase subunit 2
+3_2: YP_009318391.1|COX1|cytochrome c oxidase subunit I
+3_3: YP_009318392.1|COX2|cytochrome c oxidase subunit II
+3_4: YP_009318393.1|ATP8|ATP synthase F0 subunit 8
+3_5: YP_009318394.1|ATP6|ATP synthase F0 subunit 6
+3_6: YP_009318395.1|COX3|cytochrome c oxidase subunit III
+3_7: YP_009318396.1|ND3|NADH dehydrogenase subunit 3
+3_8: YP_009318397.1|ND4L|NADH dehydrogenase subunit 4L
+3_9: YP_009318398.1|ND4|NADH dehydrogenase subunit 4
+3_10: YP_009318399.1|ND5|NADH dehydrogenase subunit 5
+3_11: YP_009318400.1|CYTB|cytochrome b
+3_12: YP_009318401.1|ND6|NADH dehydrogenase subunit 6
+4_0: YP_009318402.1|ND1|NADH dehydrogenase subunit 1
+4_1: YP_009318403.1|ND2|NADH dehydrogenase subunit 2
+4_2: YP_009318404.1|COX1|cytochrome c oxidase subunit I
+4_3: YP_009318405.1|COX2|cytochrome c oxidase subunit II
+4_4: YP_009318406.1|ATP8|ATP synthase F0 subunit 8
+4_5: YP_009318407.1|ATP6|ATP synthase F0 subunit 6
+4_6: YP_009318408.1|COX3|cytochrome c oxidase subunit III
+4_7: YP_009318409.1|ND3|NADH dehydrogenase subunit 3
+4_8: YP_009318410.1|ND4L|NADH dehydrogenase subunit 4L
+4_9: YP_009318411.1|ND4|NADH dehydrogenase subunit 4
+4_10: YP_009318412.1|ND5|NADH dehydrogenase subunit 5
+4_11: YP_009318413.1|CYTB|cytochrome b
+4_12: YP_009318414.1|ND6|NADH dehydrogenase subunit 6
+5_0: YP_009318415.1|ND1|NADH dehydrogenase subunit 1
+5_1: YP_009318416.1|ND2|NADH dehydrogenase subunit 2
+5_2: YP_009318417.1|COX1|cytochrome c oxidase subunit I
+5_3: YP_009318418.1|COX2|cytochrome c oxidase subunit II
+5_4: YP_009318419.1|ATP8|ATP synthase F0 subunit 8
+5_5: YP_009318420.1|ATP6|ATP synthase F0 subunit 6
+5_6: YP_009318421.1|COX3|cytochrome c oxidase subunit III
+5_7: YP_009318422.1|ND3|NADH dehydrogenase subunit 3
+5_8: YP_009318423.1|ND4L|NADH dehydrogenase subunit 4L
+5_9: YP_009318424.1|ND4|NADH dehydrogenase subunit 4
+5_10: YP_009318425.1|ND5|NADH dehydrogenase subunit 5
+5_11: YP_009318426.1|CYTB|cytochrome b
+5_12: YP_009318427.1|ND6|NADH dehydrogenase subunit 6
+6_0: YP_009318454.1|ND1|NADH dehydrogenase subunit 1
+6_1: YP_009318455.1|ND2|NADH dehydrogenase subunit 2
+6_2: YP_009318456.1|COX1|cytochrome c oxidase subunit I
+6_3: YP_009318457.1|COX2|cytochrome c oxidase subunit II
+6_4: YP_009318458.1|ATP8|ATP synthase F0 subunit 8
+6_5: YP_009318459.1|ATP6|ATP synthase F0 subunit 6
+6_6: YP_009318460.1|COX3|cytochrome c oxidase subunit III
+6_7: YP_009318461.1|ND3|NADH dehydrogenase subunit 3
+6_8: YP_009318462.1|ND4L|NADH dehydrogenase subunit 4L
+6_9: YP_009318463.1|ND4|NADH dehydrogenase subunit 4
+6_10: YP_009318464.1|ND5|NADH dehydrogenase subunit 5
+6_11: YP_009318465.1|CYTB|cytochrome b
+6_12: YP_009318466.1|ND6|NADH dehydrogenase subunit 6
+7_0: YP_009449512.1|ND1|NADH dehydrogenase subunit 1
+7_1: YP_009449513.1|ND2|NADH dehydrogenase subunit 2
+7_2: YP_009449514.1|COX1|cytochrome c oxidase subunit I
+7_3: YP_009449515.1|COX2|cytochrome c oxidase subunit II
+7_4: YP_009449516.1|ATP8|ATP synthase F0 subunit 8
+7_5: YP_009449517.1|ATP6|ATP synthase F0 subunit 6
+7_6: YP_009449518.1|COX3|cytochrome c oxidase subunit III
+7_7: YP_009449519.1|ND3|NADH dehydrogenase subunit 3
+7_8: YP_009449520.1|ND4L|NADH dehydrogenase subunit 4L
+7_9: YP_009449521.1|ND4|NADH dehydrogenase subunit 4
+7_10: YP_009449522.1|ND5|NADH dehydrogenase subunit 5
+7_11: YP_009449523.1|CYTB|cytochrome b
+7_12: YP_009449524.1|ND6|NADH dehydrogenase subunit 6
+8_0: YP_009646747.1|ND1|NADH dehydrogenase subunit 1
+8_1: YP_009646748.1|ND2|NADH dehydrogenase subunit 2
+8_2: YP_009646749.1|COX1|cytochrome c oxidase subunit I
+8_3: YP_009646750.1|COX2|cytochrome c oxidase subunit II
+8_4: YP_009646751.1|ATP8|ATP synthase F0 subunit 8
+8_5: YP_009646752.1|ATP6|ATP synthase F0 subunit 6
+8_6: YP_009646753.1|COX3|cytochrome c oxidase subunit III
+8_7: YP_009646754.1|ND3|NADH dehydrogenase subunit 3
+8_8: YP_009646755.1|ND4L|NADH dehydrogenase subunit 4L
+8_9: YP_009646756.1|ND4|NADH dehydrogenase subunit 4
+8_10: YP_009646757.1|ND5|NADH dehydrogenase subunit 5
+8_11: YP_009646758.1|CYTB|cytochrome b
+8_12: YP_009646759.1|ND6|NADH dehydrogenase subunit 6

@@ -1,0 +1,9 @@
+0: KX902238.1.fasta
+1: MG590288.1.fasta
+2: NC_027947.1.fasta
+3: NC_031864.1.fasta
+4: NC_031865.1.fasta
+5: NC_031866.1.fasta
+6: NC_031869.1.fasta
+7: NC_036613.1.fasta
+8: NC_042502.1.fasta
