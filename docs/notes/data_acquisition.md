@@ -1,7 +1,7 @@
 # Data Acquisition
 
 ## Overview of Genome Selection Methodology
-All available mitogenomes of a given species were included in the analysis, and for a given species identified by running a BLAST search with the RefSeq mitogenome of that species. In cases without a RefSeq genome, the longest available mitogenome was used as the query. We included mitogenomes based on the criteria that they must have a gene coverage of at least 99% of the query genome and a length of at least 95.7% of the query genome. The below table shows the query genome used for each species:
+All NCBI-available mitogenomes of a given species that lived up to our quality criteria were included in the analysis. The genomes were found by running NCBI-BLAST with the RefSeq mitogenome of that species. In cases without a RefSeq genome, the longest available mitogenome was used as the query. We included mitogenomes that had a coverage of at least 99% of the query genome and a length of at least 95.7% of the query genome. The below table shows the query genome used for each species:
 
 |Species                 |Query genome|
 |------------------------|------------|
@@ -24,7 +24,7 @@ We selected the mitochondrial genomes based on the following criteria:
 
 ## Additional BLAST Search Information
 
-During the BLAST searches, we also recorded the percent identities of each genome compared to the reference genome. This data, summarized below, was not used as a selection criteria but was noted for potential future analysis.
+During the BLAST searches, we also recorded the percent identity of the least similar genome compared to the reference genome. This data, summarized below, was not used as a selection criteria but was noted for potential future reference.
 
 |Species                 |Percent identity| 
 |------------------------|----------------|
@@ -43,7 +43,7 @@ During the BLAST searches, we also recorded the percent identities of each genom
 To retrieve the mitochondrial genomes, we employed the efetch (v. 20.7) command from Entrez Direct with a list of the chosen genomes. This process involved:
 
 1. **Creating an Input File**: We first prepared a text file ('genome_accessions.txt') listing the NCBI accession numbers of all the genomes we intended to download.
-2. **Executing the Command**: We then executed the following command which loops through the accession numbers to download the specified genomes with efetch:
+2. **Executing the Command**: We then executed the following command which loops through the accession numbers downloading each genomes with efetch to the current directory:
 ~~~bash
 # Loop through each line in the file 'genome_accessions.txt'
 while read r; do
@@ -53,12 +53,12 @@ while read r; do
 done < genome_accessions.txt
 ~~~
 
-The number of mitogenomes retrieved per species is listed in alphabetical order in the table below:
+The number of mitogenomes retrieved per species, including the reference genome, is listed in alphabetical order in the table below:
 
 |Species                 |# of mitogenomes  |
 |------------------------|------------------|
 |Caloenas nicobarica     |2                 |
-|Didunculus strigirostric|2                 |
+|Didunculus strigirostris|2                 |
 |Ectopistes migratorius  |42                |
 |Goura cristata          |11                |
 |Goura scheepmakeri      |6                 |

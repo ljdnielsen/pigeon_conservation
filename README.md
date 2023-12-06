@@ -8,11 +8,11 @@ This bioinformatics project is dedicated to the conservation of pigeon species, 
 
 **Genomic Data Analysis:** We analyzed genomic data of four Goura species, sourced from NCBI. These datasets represent specimens collected from 1860 to the present, allowing for an exploration of the historical geographical distribution of these species. This analysis also highlights the limitations in the modern geographical sampling of DNA, impacting the assessment of changes in species diversity over time.
 
-**Mitochondrial Genome Study:** Our study meticulously documents the origins and haplotypes of available mitochondrial genomes. Using a battery of freely availabe software, we aim to assess population diversity changes and identify areas needing enhanced sequencing efforts.
+**Mitochondrial Genome Study:** Our study meticulously documents the origins and haplotypes of available mitochondrial genomes. Using freely availabe software, we aim to assess population diversity changes and identify areas needing enhanced sequencing efforts.
 
 ## Methodology Overview
 
-We downloaded mitochondrial genomes from NCBI, using the passenger pigeon (Ectopistes migratorius) as an outgroup, to explore the phylogenetic relationships among Indo-Pacific Columbiformes. For all Goura specimens, we systematically documented geographical origins and sampling dates. Haplotypes for each of the four Goura species were determined using R packages 'ape' and 'pegas', providing insights into their distribution and evolution.
+We first used the mitochondrial genomes, sourced from NCBI, to explore the phylogenetic relationships among Indo-Pacific Columbiformes. For all Goura specimens, we systematically documented geographical origins and sampling dates. Haplotypes for each of the four Goura species were determined using R packages 'ape' and 'pegas', providing insights into their distribution and evolution.
 
 ## Documentation Overview
 
@@ -20,7 +20,7 @@ For an in-depth understanding of our project, explore the following documents in
 
 - **Data Acquisition:** [data_acquisitions.md](./docs/notes/data_acquisition.md) - Describes the dataset acquisition process and criteria.
 
-- **Species Tree:** [reference_genome_tree.md](./docs/notes/reference_genome_tree.md) - Details the methodology for inferring the phylogenetics of Indo-Pacific Columbiformes.
+- **Species Tree:** [reference_genome_tree.md](./docs/notes/species_tree.md) - Details the methodology for inferring the phylogenetics of Indo-Pacific Columbiformes.
 
 - **Sample Origins:** [sample_origins.md](./docs/notes/sample_origins.md) - Records and summarizes the origins of genomes and the specimens they are derived from.
 

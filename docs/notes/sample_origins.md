@@ -11,7 +11,7 @@ We utilized the script ['extract_qualifers.py'](../../src/preprocessing/extract_
 python3 src/preprocessing/extract_qualifiers.py --directory data/raw --annotations organism --qualifiers country collection_date collected_by specimen_voucher > data/metadata/sample_origins.csv
 ~~~
 
-## Analysis of Extracted Data
+## Scope of Extracted Metadata
 
 Post-extraction, the data was organized in Excel. Key findings include:
 
@@ -21,9 +21,17 @@ Post-extraction, the data was organized in Excel. Key findings include:
     - 18 from Papua New Guinea
     - 1 (Didunculus strigirostris) from Samoa
 
+## Sampling Location & Date by Species
+
+To visualize the geographical and temporal extent of the collected specimen we plotted them according to collection date and species. This was done with the jupyter notebook [metadata_plot.ipynb](../../src/analysis/metadata_plot.ipynb).
+This resulted in the following plot:
+
+![Specimen Collections Over Years by Location](../../results/figures/specimen_by_year_location.png)
+
+
 ## Historical Context of the First Goura Specimen
 
-The first Goura specimen (a Goura cristata) was seemingly collected by Charles Martin Allen, assistant to Alfred Russel Wallace, during an 1860 expedition to Misool Island, Indonesia. This prompted a review of the literature, specifically *In Alfred Russel Wallace's Shadow: His Forgotten Assistant, Charles Allen (1839-1892)* by Kees Rookmaaker and John van Wyhe, for further insights.
+The first Goura specimen (a Goura cristata) was, as specified in the GenBank file of the MtDNA genome, collected by Charles Martin Allen, assistant to Alfred Russel Wallace, during an 1860 expedition to Misool Island, Indonesia. This prompted a review of the literature, specifically *In Alfred Russel Wallace's Shadow: His Forgotten Assistant, Charles Allen (1839-1892)* by Kees Rookmaaker and John van Wyhe, for further insights.
 
 ### Excerpts from Wallace's Correspondences and Notebooks
 In their paper, Rookmaaker and van Wyhe cite several entertaining paragraphs about Wallace's and Allen's experiences. Wallace's character assessment of Allen is mentioned in a letter to his mother, from July 1854 when camping in the jungle near Malacca:
@@ -45,7 +53,7 @@ calling upon two Dyaks who happened to be in the house at the time to
 accompany me & ordering Charles to bring all the ammunition after me as
 quick as possible.
 
-The vast contribution that Allen have made to specimen collection is made clear by Rookmaaker's and van Wyhe's recounting that he in a two-and-a-half month perioed between 4 August and 18 October 1855 collected 6198 insects, corresponding to more then a hundred individuals per day, only a year after arriving in the Malay Archipelago.[^1]
+The vast contribution that Allen have made to specimen collection is made clear by Rookmaaker's and van Wyhe's recounting that he in a two-and-a-half month period between 4 August and 18 October 1855 collected 6198 insects, corresponding to more then a hundred individuals per day, only a year after arriving in the Malay Archipelago.[^1]
 
 
 [^1]: Rookmaaker, Kees & van Wyhe, John. (2012), ["In Alfred Russel Wallace's Shadow: His Forgotten Assistant, Charles Allen (1839-1892)"](https://www.jstor.org/stable/24894190) *Journal of the Malaysian Branch of the Royal Asiatic Society*, 2012: vol. 85, Issue 2, pp. 17-54
