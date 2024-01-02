@@ -21,7 +21,7 @@ Post-extraction, the data was organized in Excel. Key findings include:
     - 18 from Papua New Guinea
     - 1 (Didunculus strigirostris) from Samoa
 
-## Sampling Location & Date by Species
+## Sampling Location & Dates by Species
 
 To visualize the geographical and temporal extent of the collected specimen we plotted them according to collection date and species. This was done with the jupyter notebook [metadata_plot.ipynb](../../src/analysis/metadata_plot.ipynb).
 This resulted in the following plot:

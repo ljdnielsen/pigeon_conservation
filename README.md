@@ -4,7 +4,7 @@ This bioinformatics project is dedicated to the conservation of pigeon species, 
 
 ## Project Overview and Objectives
 
-**Scope:** Our project undertakes a thorough assessment of publically available genetic data on Indo-Pacific Columbiformes, with a special focus on crown pigeons (genus Goura). We aim to understand the genetic variation and geographic distribution patterns of these species over time.
+**Scope:** Our project undertakes a thorough assessment of publically available genetic data on Indo-Pacific Columbiformes, with a special focus on crown pigeons (genus *Goura*). We aim to understand the genetic variation and geographic distribution patterns of these species over time.
 
 **Genomic Data Analysis:** We analyzed genomic data of four Goura species, sourced from NCBI. These datasets represent specimens collected from 1860 to the present, allowing for an exploration of the historical geographical distribution of these species. This analysis also highlights the limitations in the modern geographical sampling of DNA, impacting the assessment of changes in species diversity over time.
 
