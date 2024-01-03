@@ -1,7 +1,7 @@
 # Species Tree
 
 ## Overview of Tree Reconstruction
-To infer the phylogenetic relationships between the nine species included in the study, we first made a maximum parsimony tree based on the full mitogenomes of the reference genomes. We then infered maximum parsimony trees from the cytochrome c oxidase subunits or from cytochrome b to determine if either can be used to infer the phylogenetic relationships as well as the full mitogenome. The accession nrs. of the reference genomes are restated in the table below:
+To infer the phylogenetic relationships between the nine species included in the study, we first made a maximum parsimony tree based on the full mitogenomes of the reference genomes. We then inferred maximum parsimony trees from the cytochrome c oxidase subunits or from cytochrome b to determine if either can be used to infer the phylogenetic relationships as well as the full mitogenome. The accession nrs. of the reference genomes are restated in the table below:
 
 |Species                 |Query Genome|
 |------------------------|------------|
@@ -67,9 +67,9 @@ The mitochondrial sequences were aligned using MAFFT (v. 7.490), option 'auto', 
 mafft --auto raw/reference_genomes/reference_genomes.fasta > processed/reference_genomes_aligned.fasta
 ~~~
 
-Manual inspection of the alignment revealed a highly repetitive sequence characterized by repeats of 'caatcaacgaatgacca.....' present at the end of the Goura reference genomes. Most notably in the genome of Goura sclaterii (MG590288.1) where it led to gaps of 1151-1250 bp at the ends of the five non-Goura sequences in the alignment.
+Manual inspection of the alignment revealed a highly repetitive sequence characterized by repeats of 'caatcaacgaatgacca.....' present at the end of the Goura reference genomes. Most notably in the genome of Goura sclaterii (MG590288.1) which led to gaps of 1151-1250 bp at the ends of the five non-Goura sequences in the alignment.
 
-The sequence alignment was converted to NEXUS format using 'seqconverter' with the following command:
+The sequence alignment was converted to NEXUS format, for use in PAUP, using 'seqconverter' with the following command:
 
 ~~~bash
 seqconverter -I fasta -O nexus processed/reference_genomes_aligned.fasta > processed/reference_genomes.nexus
@@ -115,14 +115,15 @@ The tree labels and color were modified in FigTree (v1.4.4), resulting in the mi
 1. **Concatenating and Merging COX1,-2, and -3 of Reference Genomes:**
 To align the concatenated cytochrome c oxidase subunits of each reference genome, we first created a custom Python script, ['concatenate_genes.py'](../../src/preprocessing/concatenate_genes.py), that finds and concatenates the sequences of specified genes from a GenBank file. This script was then used to write the concatenation of COX1, COX2, and COX3 of each reference genome to a single FASTA file using the following commands:
     ~~~bash
-    output_file="data/raw/reference_genomes/cox_subunits/cox_subunits.fasta"
+    output_file="data/raw/reference_genomes/genes/cox_subunits/cox_subunits.fasta"
     > "$output_file" # Clear the output file if it exists
 
     for file in data/raw/reference_genomes/*.gb; do
-        echo ">$(basename ${file%.gb})" >> $output_file
-        python3 src/preprocessing/concatenate_genes.py --genes COX1 COX2 COX3 --input $file >> $output_file
+        echo ">$(basename ${file%.gb})" >> $output_file # Add basename of reference genome file to sequence name-line
+        python3 src/preprocessing/concatenate_genes.py --genes COX1 COX2 COX3 --input $file >> $output_file # Use python script to fetch and concatenate COX subunits for reference genome and add to output file
     done
     ~~~
+    resulting in the file [cox_subunits.fasta](../../data/raw/reference_genomes/genes/cox_subunits.fasta)
 
 2. **Alignment of COX Subunits using MAFFT:**
     The reference genomes COX subunits were aligned with MAFFT using the following command:
@@ -176,8 +177,8 @@ In our comparative analysis of the full mitochondrial tree and the COX subunits 
 - **Interpretation of Phylogenetic Differences:**
   This disparity in the phylogenetic placement of Didunculus strigirostris between the two trees could be attributed to the limited phylogenetic resolution provided by the COX subunits alone. It seems that the COX subunits may not be as effective in distinguishing between closely related species within the Columbidae family as the full mitochondrial sequences. Both trees correctly dileneate the Goura species as in Bruxaux et al. (2017), placing Goura victoria and Goura scheepmakeri together, and Goura cristata and Goura sclaterii together.[^1]
 
-- **Consistency and Homoplasy Indices:**
-  Interestingly, both the consistency index (CI) and the homoplasy index (HI) - a measure non-parsimony - show remarkable similarity between the two trees, with differences of only 1/100th. This suggests that despite the different phylogenetic placements observed, the overall reliability and character-state distribution, as measured by these indices, are comparable between the two trees.
+- **Comparison of Homoplasy Indices:**
+  To find the most parsimonious of the two trees we compared the homoplasy indeces (HI) which is a measure of the frequence of independently evolved shared traits in the tree. A lower homoplasy index indicates a more parsimonious tree with fewer such instances. With an HI of 0.2715, 0.009 lower than the COX subunit tree's, the full mitochondria tree provides a more direct interpretation of the species' evolutionary history. 
 
 These observations underscore the importance of using comprehensive genomic data for phylogenetic studies, especially when dealing with closely related species. The choice of molecular markers can significantly influence the phylogenetic relationships inferred, highlighting the need for careful marker selection in phylogenetic analyses. The full mitochondrial tree agrees in its placement of Didunculus with the Maximum Likelihood phylogeny by Soares et al. [^2]
 
@@ -248,7 +249,9 @@ To asses the phylogenetic signal of Cytochrome B, we also made a maximum parsimo
 
 ![Cytochrome B Max. Parsimony Tree](../../results/figures/cytb.tree.species_names.red.png)
 
-We noted that there are ~2.5X more changes along the branches of the Cytochrome C subunits tree than the Cytochrome B tree; that the Cytochrome B tree disagrees with the two other trees in its placement of Didunculus strigirostris by placing it as a sister species to Caloenas nicobarica; and that all three trees dileneate the Goura species in the same way.
+Comparing the Cytochrome B tree with the two others, we note that it disagrees in the placement of Didunculus strigirostris by placing it as a sister species to Caloenas nicobarica; that the Cytochrome B tree is the least parsimonious tree with the highest HI at 0.285 (compared to 0.2805 for the COX subunits tree and 0.2715 for the full mitochondrial tree); and that all three trees dileneate the Goura species in the same way.
+
+Return to [README](../../README.md).
 
 [^1]: Bruxaux, Jade et al. (2018), ["Recovering the evolutionary history of crowned pigeons (Columbidae: Goura): Implications for the biogeography and conservation of New Guinean lowland birds"](https://www.sciencedirect.com/science/article/abs/pii/S1055790317308679) *Molecular Phylogenetics and Evolution*, 2018: vol. 120, pp. 248-258.
 

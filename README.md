@@ -18,7 +18,7 @@ We first used the mitochondrial genomes, sourced from NCBI, to explore the phylo
 
 For an in-depth understanding of our project, explore the following documents in our 'docs' directory:
 
-- **Data Acquisition:** [data_acquisitions.md](./docs/notes/data_acquisition.md) - Describes the dataset acquisition process and criteria.
+- **Data Acquisition:** [data_acquisition.md](./docs/notes/data_acquisition.md) - Describes the dataset acquisition process and criteria.
 
 - **Species Tree:** [reference_genome_tree.md](./docs/notes/species_tree.md) - Details the methodology for inferring the phylogenetics of Indo-Pacific Columbiformes.
 
