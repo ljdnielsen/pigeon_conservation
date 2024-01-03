@@ -28,7 +28,7 @@ This resulted in the following plot:
 
 ![Specimen Collections Over Years by Location](../../results/figures/specimen_by_year_location.png)
 
-The four Goura locations were marked on a map of New Guinea and Raja Ampat, shown below, with the jupyter notebook [new_guinea_raja_ampat.ipynb](new_guinea_raja_ampat.ipynb):
+The four Goura locations were marked on a map of New Guinea and Raja Ampat, shown below, with the jupyter notebook [new_guinea_raja_ampat.ipynb](../../src/analysis/new_guinea_raja_ampat.ipynb):
 
 ![Sampling Locations on & Around New Guinea](../../results/figures/new_guinea_raja_ampat.png)
 
