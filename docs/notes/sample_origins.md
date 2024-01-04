@@ -40,6 +40,12 @@ The distinct geographical distributions of the four Goura species as described b
 
 In our study, the most recent mitochondrial genome sequences for Goura species in three out of their four locations were from specimens collected several decades ago: Papua New Guinea (1966), the Raja Ampat Islands (1925), and the Geelvink Bay Islands (1896). These dates represent the latest point at which our genetic analysis can be applied to Goura populations in these areas. However, records from the Global Biodiversity Information Facility (GBIF) suggest ongoing presence of these species beyond these dates: a *Goura victoria* was observed on the Geelvink Bay Islands in 1994 ([GBIF: *Goura victoria*](https://www.gbif.org/occurrence/2843598506)), and many *Goura cristata* sightings occured on the Raja Ampat Islands in 2023 ([GBIF: *Goura cristata*](https://www.gbif.org/occurrence/4130233618)). This indicates the potential for acquiring more recent DNA samples, which could significantly enhance our understanding of their current genetic structure and diversity.  
 
+### Detailed Sampling Locations of *Goura cristata* in Western New Guinea and Raja Ampat
+
+To more clearly visualize the geographical distribution of *Goura cristata* we plottet the particular sampling locations as shown on the map below of western New Guinea and the Raja Ampat Islands.
+
+![Map](../../results/figures/g_cristata_sampling_sites.png)
+
 ## Historical Context of the First Goura Specimen
 
 The first Goura specimen - a *Goura cristata* - was, as specified in the GenBank file of the MtDNA genome, collected by Charles Martin Allen, assistant to Alfred Russel Wallace, during an 1860 expedition to Misool Island, Indonesia. This prompted a review of the literature, specifically *In Alfred Russel Wallace's Shadow: His Forgotten Assistant, Charles Allen (1839-1892)* by Kees Rookmaaker and John van Wyhe, for further insights.
@@ -64,7 +70,7 @@ calling upon two Dyaks who happened to be in the house at the time to
 accompany me & ordering Charles to bring all the ammunition after me as
 quick as possible.
 
-The vast contribution that Allen made to specimen collection is made clear by Rookmaaker's and van Wyhe's recounting that he in a two-and-a-half month period between 4 August and 18 October 1855 collected 6198 insects, corresponding to more then a hundred individuals per day, only a year after arriving in the Malay Archipelago.[^2]
+The vast contribution that Allen made to specimen collection is made clear by Rookmaaker's and van Wyhe's recounting that he in a two-and-a-half month period between 4 August and 18 October 1855 collected 6198 insects<!--TODO: Add information about the rate at which Allen collected birds-->, corresponding to more than a hundred individuals per day, only a year after arriving in the Malay Archipelago.[^2]
 
 [^1]: Bruxaux, Jade et al. (2018), ["Recovering the evolutionary history of crowned pigeons (Columbidae: Goura): Implications for the biogeography and conservation of New Guinean lowland birds"](https://www.sciencedirect.com/science/article/abs/pii/S1055790317308679) *Molecular Phylogenetics and Evolution*, 2018: vol. 120, pp. 248-258.
 
