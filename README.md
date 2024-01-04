@@ -1,8 +1,8 @@
-# Pigeon Conservation
+# 🕊🌿 Pigeon Conservation
 
 This bioinformatics project is dedicated to the conservation of pigeon species, particularly focussing on the Indo-Pacific Columbiformes. Utilizing comprehensive data analysis, detailed research notes, and innovative methods, this project aims to study and conserve pigeon populations. We employ Python and R for robust data processing and analysis, and invite collaboration and contributions from anyone interested.
 
-## Project Overview and Objectives
+## 🎯 Project Overview and Objectives
 
 **Scope:** Our project undertakes a thorough assessment of publically available genetic data on Indo-Pacific Columbiformes, with a special focus on crown pigeons (genus *Goura*). We aim to understand the genetic variation and geographic distribution patterns of these species over time.
 
@@ -10,11 +10,11 @@ This bioinformatics project is dedicated to the conservation of pigeon species, 
 
 **Mitochondrial Genome Study:** Our study meticulously documents the origins and haplotypes of available mitochondrial genomes. Using freely availabe software, we aim to assess population diversity changes and identify areas needing enhanced sequencing efforts.
 
-## Methodology Overview
+## 🔎📊 Methodology Overview
 
 We first used the mitochondrial genomes, sourced from NCBI, to explore the phylogenetic relationships among Indo-Pacific Columbiformes. For all Goura specimens, we systematically documented geographical origins and sampling dates. Haplotypes for each of the four Goura species were determined using R packages 'ape' and 'pegas', providing insights into their distribution and evolution.
 
-## Documentation Overview
+## 📄 Documentation Overview
 
 For an in-depth understanding of our project, explore the following documents in our 'docs' directory:
 
