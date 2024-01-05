@@ -45,7 +45,6 @@ In our study, the most recent mitochondrial genome sequences for Goura species i
 
 To more clearly visualize the geographical distribution of *Goura cristata* we plottet the particular sampling locations as shown on the map below of western New Guinea and the Raja Ampat Islands made using the notebook [g_cristata_sampling_sites.ipynb](../../src/analysis/g_cristata_sampling_sites.ipynb).
 
-<!--Add name locations to Birdshead and Raja Ampat map-->
 ![Raja Ampat and Birdshead Peninsula, G. cristata Sites](../../results/figures/g_cristata_sampling_sites.png)
 
 ## Historical Context of the First Goura Specimen
