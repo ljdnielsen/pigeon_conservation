@@ -109,7 +109,7 @@ savetrees file=processed/mitochondria_tree.nexus brlens=yes
 The tree labels and color were modified in FigTree (v1.4.4), resulting in the mitogenome tree shown below, with number of nucleotide changes along each branch:
 
 <!--Increase DPI and make bottem left branch red like the rest of the tree-->
-![Mitochondrial Maximum Parsimony Tree](../../results/figures/mitochondria_tree.species_names.red.png)
+![Mitochondrial Maximum Parsimony Tree](../../results/figures/mitochondria_tree.species_names.blue.png)
 
 ## Maximum Parsimony Tree of Cytochrome C Oxidase Subunits
 
