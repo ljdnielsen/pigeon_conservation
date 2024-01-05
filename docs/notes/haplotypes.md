@@ -112,9 +112,10 @@ orthofinder -s data/processed/mitochondria_tree.for_orthofinder.newick -f data/r
 
 We then ran OrthoFinder on the 40 Goura genomes and found that all 13 mitogenes were single copy ortholouges across all four species. The results are in '__data/raw/genera/Goura/fasta__'. OrthoFinder could not create a correct rooted tree from only the Goura species.
 
-## Mitogenomes Gene Duplications
+<!--Move study of gene duplications to another markdown note. Keep the part of the analysis that shows that all 13 mitogenes are orthologous.-->
+## No Gene Duplications in Mitogenomes
 
-The OrthoFinder results revealed that no gene duplications had occured among our species. As illustrated by the species tree below, where the number after the underscore, '_', of each node label (N0,N1..) represents the number of duplications on the branch leading to that node, the number of duplications are zero along all branches.
+The OrthoFinder results revealed that no gene duplications had occured in the mitochondrial genomes of our nine species since their most recent common ancestor (MRCA). As illustrated by the species tree below, where the number after the underscore, '_', of each node label (N0,N1..) represents the number of duplications on the branch leading to that node, the number of duplications are zero along all branches.
 
 ![Reference Genomes Gene Duplications](../../results/figures/reference_genomes.OrthoFinder_gene_duplications.png)
 
