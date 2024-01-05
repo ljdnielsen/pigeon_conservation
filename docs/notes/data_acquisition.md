@@ -3,6 +3,7 @@
 ## Overview of Genome Selection Methodology
 All NCBI-available mitogenomes of a given species that lived up to our quality criteria were included in the analysis. The genomes were found by running NCBI-BLAST with the RefSeq mitogenome of that species. In cases without a RefSeq genome, the longest available mitogenome was used as the query. We included mitogenomes that had a coverage of at least 99% of the query genome and a length of at least 95.7% of the query genome. The below table shows the query genome used for each species:
 
+<!--Add column indicating if the genome is refseq or not-->
 |Species                 |Query genome|
 |------------------------|------------|
 |Ectopistes migratorius  |NC_042502.1 |

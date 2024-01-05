@@ -170,7 +170,7 @@ To align the concatenated cytochrome c oxidase subunits of each reference genome
 
 ## Comparative Analysis of Phylogenetic Trees
 
-In our comparative analysis of the full mitochondrial tree and the COX subunits tree, we observed a notable differences in the placement of Didunculus strigirostris. Key observations and interpretations are as follows:
+In our comparative analysis of the full mitochondrial tree and the COX subunits tree, we observed a notable difference in the placement of Didunculus strigirostris. Key observations and interpretations are as follows:
 
 - **Position of Didunculus strigirostris:**
   In the COX subunits tree, Didunculus strigirostris appears to be more closely related to the Caloenas-Raphus-Pezophaps clade than the Goura clade is. Conversely, in the full mitochondria tree, Didunculus strigirostris is positioned outside the other clades of the ingroup.
@@ -179,12 +179,12 @@ In our comparative analysis of the full mitochondrial tree and the COX subunits 
   This disparity in the phylogenetic placement of Didunculus strigirostris between the two trees could be attributed to the limited phylogenetic resolution provided by the COX subunits alone. It seems that the COX subunits may not be as effective in distinguishing between closely related species within the Columbidae family as the full mitochondrial sequences. Both trees correctly dileneate the Goura species as in Bruxaux et al. (2017), placing Goura victoria and Goura scheepmakeri together, and Goura cristata and Goura sclaterii together.[^1]
 
 - **Comparison of Homoplasy Indices:**
-  To find the most parsimonious of the two trees we compared the homoplasy indeces (HI) which is a measure of the frequence of independently evolved shared traits in the tree. A lower homoplasy index indicates a more parsimonious tree with fewer such instances. With an HI of 0.2715, 0.009 lower than the COX subunit tree's, the full mitochondria tree provides a more direct interpretation of the species' evolutionary history. 
+  To find the most parsimonious of the two trees we compared the homoplasy indeces (HI) which is a measure of the frequency of independently evolved shared traits in the tree. A lower homoplasy index indicates a more parsimonious tree with fewer such instances. With an HI of 0.2715, 0.009 lower than the COX subunit tree's, the full mitochondria tree provides a more direct interpretation of the species' evolutionary history. 
 
 These observations underscore the importance of using comprehensive genomic data for phylogenetic studies, especially when dealing with closely related species. The choice of molecular markers can significantly influence the phylogenetic relationships inferred, highlighting the need for careful marker selection in phylogenetic analyses. The full mitochondrial tree agrees in its placement of Didunculus with the Maximum Likelihood phylogeny by Soares et al. [^2]
 
 ## Maximum Parsimony Tree of Cytochrome B
-To asses the phylogenetic signal of Cytochrome B, we also made a maximum parsimony tree from this gene of the nine reference genomes using the same aproach as for the two previous trees.
+To asses the phylogenetic signal of Cytochrome B, we also made a maximum parsimony tree from this gene for the nine reference genomes using the same aproach as for the two previous trees.
 
 1. **Extraction of Cytochrome B DNA Sequences:**
     Cytochrome B DNA sequences from the reference genomes were written to the FASTA file, '__cytochrome_b.fasta__', with the python executable ['concatenate_genes.py'](../../src/preprocessing/concatenate_genes.py) using the terms 'CYTB' and 'cob' for input genes as Cytochrome B is annotated by either name in the genbank files:
@@ -250,7 +250,7 @@ To asses the phylogenetic signal of Cytochrome B, we also made a maximum parsimo
 
 ![Cytochrome B Max. Parsimony Tree](../../results/figures/cytb.tree.species_names.orange.png)
 
-Comparing the Cytochrome B tree with the two others, we note that it disagrees in the placement of Didunculus strigirostris by placing it as a sister species to Caloenas nicobarica; that the Cytochrome B tree is the least parsimonious tree with the highest HI at 0.285 (compared to 0.2805 for the COX subunits tree and 0.2715 for the full mitochondrial tree); and that all three trees dileneate the Goura species in the same way.
+Comparing the Cytochrome B tree with the two others, we note that it disagrees in the placement of Didunculus strigirostris by placing it as a sister species to Caloenas nicobarica. We also note that the Cytochrome B tree is the least parsimonious tree, with the highest HI at 0.285 (compared to 0.2805 for the COX subunits tree and 0.2715 for the full mitochondrial tree). And, we note that all three trees dileneate the Goura species in the same way.
 
 Return to [README](../../README.md).
 
