@@ -1,42 +1,95 @@
-#NEXUS 
+#NEXUS
+begin trees;
+	tree PAUP_1 = [&U] (((((KX902238[&!color=#ff6600]:813.0,NC_031864[&!color=#ff6600]:752.0)[&!color=#ff6600]:487.0,NC_031869[&!color=#ff6600]:1023.0)[&!color=#ff6600]:505.0,((MG590288[&!color=#ff6600]:230.0,NC_031865[&!color=#ff6600]:221.0)[&!color=#ff6600]:316.0,(NC_027947[&!color=#ff6600]:89.0,NC_036613[&!color=#ff6600]:88.0)[&!color=#ff6600]:343.0)[&!color=#ff6600]:764.0)[&!color=#ff6600]:482.0,NC_031866[&!color=#ff6600]:862.0)[&!color=#ff6600]:573.0,NC_042502[&!color=#ff6600]:1020.0)[&!color=#ff6600];
 
-Begin trees;  [Treefile saved Thu Nov 16 14:24:59 2023]
-[!
->Data file = reference_genomes.nexus
->Branch-and-bound search settings:
->  Optimality criterion = parsimony
->    Character-status summary:
->      Of 18553 total characters:
->        All characters are of type 'unord'
->        All characters have equal weight
->        13261 characters are constant (proportion = 0.714763)
->        2346 variable characters are parsimony-uninformative
->        Number of parsimony-informative characters = 2946
->    Gaps are treated as "missing"
->    Multistate taxa interpreted as uncertainty
->  Initial upper bound: unknown (compute heuristically)
->  Addition sequence: furthest
->  Initial 'Maxtrees' setting = 100
->  Branches collapsed (creating polytomies) if maximum branch length is zero
->  'MulTrees' option in effect
->  No topological constraints in effect
->  Trees are unrooted
->
->Branch-and-bound search completed:
->  Score of best tree found = 8568
->  Number of trees retained = 1
->  Time used = 0.01 sec (CPU time = 0.02 sec)
-]
-	Translate
-		1 KX902238,
-		2 MG590288,
-		3 NC_027947,
-		4 NC_031864,
-		5 NC_031865,
-		6 NC_031866,
-		7 NC_031869,
-		8 NC_036613,
-		9 NC_042502
-		;
-tree 'PAUP_1' = [&U] (((((1:813,4:752):487,7:1023):505,((2:230,5:221):316,(3:89,8:88):343):764):482,6:862):573,9:1020);
-End;
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="DejaVu Sans";
+	set branchLabels.fontSize=9;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="DejaVu Math TeX Gyre";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=300.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="DejaVu Sans";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

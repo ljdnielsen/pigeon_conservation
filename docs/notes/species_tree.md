@@ -166,7 +166,7 @@ To align the concatenated cytochrome c oxidase subunits of each reference genome
 
     We added species names to the leaf nodes and colored the tree in FigTree (v1.4.4), resulting in the tree below.
 
-![COX Subunits Maximum Parsimony Tree](../../results/figures/cox_subunits.tree.species_names.red.png)
+![COX Subunits Maximum Parsimony Tree](../../results/figures/cox_subunits.tree.species_names.orange.png)
 
 ## Comparative Analysis of Phylogenetic Trees
 
@@ -248,7 +248,7 @@ To asses the phylogenetic signal of Cytochrome B, we also made a maximum parsimo
     
     We exchanged the accession numbers at the leaf nodes with the species names manually using FigTree (v1.4.4). The resulting tree is displayed below.
 
-![Cytochrome B Max. Parsimony Tree](../../results/figures/cytb.tree.species_names.red.png)
+![Cytochrome B Max. Parsimony Tree](../../results/figures/cytb.tree.species_names.orange.png)
 
 Comparing the Cytochrome B tree with the two others, we note that it disagrees in the placement of Didunculus strigirostris by placing it as a sister species to Caloenas nicobarica; that the Cytochrome B tree is the least parsimonious tree with the highest HI at 0.285 (compared to 0.2805 for the COX subunits tree and 0.2715 for the full mitochondrial tree); and that all three trees dileneate the Goura species in the same way.
 
