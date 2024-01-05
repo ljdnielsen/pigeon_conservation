@@ -30,6 +30,7 @@ This resulted in the following plot:
 
 ![Specimen Collections Over Years by Location](../../results/figures/specimen_by_year_location.png)
 
+<!--Is the Goura cristata minor genetically a cristata and where is Salawatt?-->
 The four Goura locations were marked on a map of New Guinea and Raja Ampat, shown below, with the jupyter notebook [new_guinea_raja_ampat.ipynb](../../src/analysis/new_guinea_raja_ampat.ipynb):
 
 ![Sampling Locations on & Around New Guinea](../../results/figures/new_guinea_raja_ampat.png)
@@ -42,9 +43,10 @@ In our study, the most recent mitochondrial genome sequences for Goura species i
 
 ### Detailed Sampling Locations of *Goura cristata* in Western New Guinea and Raja Ampat
 
-To more clearly visualize the geographical distribution of *Goura cristata* we plottet the particular sampling locations as shown on the map below of western New Guinea and the Raja Ampat Islands.
+To more clearly visualize the geographical distribution of *Goura cristata* we plottet the particular sampling locations as shown on the map below of western New Guinea and the Raja Ampat Islands made using the notebook [g_cristata_sampling_sites.ipynb](../../src/analysis/g_cristata_sampling_sites.ipynb).
 
-![Map](../../results/figures/g_cristata_sampling_sites.png)
+<!--Add name locations to Birdshead and Raja Ampat map-->
+![Raja Ampat and Birdshead Peninsula, G. cristata Sites](../../results/figures/g_cristata_sampling_sites.png)
 
 ## Historical Context of the First Goura Specimen
 
