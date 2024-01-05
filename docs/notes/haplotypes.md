@@ -90,7 +90,7 @@ Before making haplotype delineations in R, we created a maximum parsimony consen
 
 ### Interpretation of Goura CYTB Consensus Tree 
 
-We first of all observed that all specimen delineate according to species, and that *G. cristata* and *G. sclaterii* constitute one monophyletic group while *G. victoria* and *G. scheepmakeri* constitute another in agreement with the species trees in [species_tree.md](../../docs/notes/species_tree.md), and that all specimen appear to have been correctly assigned to species showing that Cytochrome B provides high enough resolution to correctly represent the phylogenetic organization of species within the Goura genus. There was some uncertainty to whether *Goura cristata minor*, collected in 1934, had been correctly species determined, as it is labeled as Papua New Guinean as opposed to the other *G. cristata*, which are from western New Guinea in Indonesia. *G. sclaterii* delineates into two clades: One collected in Indonesia and one collected in Papua New Guinea - both clades have a support value of 100%. We also noted that for *G. cristata* there exists a clade from which no samples have been collected since 1925 - except for one specimen without specified sampling year or place - including the specimen collected in 1860 by Charles M. Allen. For *G. victoria* there is a clade, containing the only specimen of subspecies baccarii, that has no samples younger than from 1938.
+We first of all observed that all specimen delineate according to species, and that *G. cristata* and *G. sclaterii* constitute one monophyletic group while *G. victoria* and *G. scheepmakeri* constitute another in agreement with the species trees in [species_tree.md](../../docs/notes/species_tree.md), and that all specimen appear to have been correctly assigned to species showing that Cytochrome B provides high enough resolution to correctly represent the phylogenetic organization of species within the *Goura* genus. There was some uncertainty to whether *Goura cristata minor*, collected in 1934, had been correctly species determined, as it is labeled as Papua New Guinean as opposed to the other *G. cristata*, which are from western New Guinea in Indonesia. *G. sclaterii* delineates into two clades: One collected in Indonesia and one collected in Papua New Guinea - both clades have a support value of 100%. We also noted that for *G. cristata* there exists a clade from which no samples have been collected since 1925 - except for one specimen without specified sampling year or place - including the specimen collected in 1860 by Charles M. Allen. For *G. victoria* there is a clade, containing the only specimen of subspecies *baccarii*, which most recent specimen is from 1938.
 
 ## Maximum Likelihood Tree of Orthologous Mitogenes
 
@@ -114,11 +114,12 @@ We used the program OrthoFinder v. 2.5.5 to find gene orthologs and gene duplica
 orthofinder -s data/processed/mitochondria_tree.for_orthofinder.newick -f data/raw/reference_genomes/fasta/
 ~~~
 
-The OrthoFinder results revealed that no gene duplications had occured in the mitochondrial genomes of our nine species since their most recent common ancestor (MRCA). As illustrated by the species tree below, where the number after the underscore, '_', of each node label (N0,N1..) represents the number of duplications on the branch leading to that node. The number of duplications are zero along all branches.
+The OrthoFinder results revealed that no gene duplications had occured in the mitochondrial genomes of our nine species since their most recent common ancestor (MRCA). As illustrated by the species tree below, where the number after the underscore, '_', of each node label (N0,N1..) represents the number of duplications on the branch leading to that node, the number of duplications are zero along all branches.
 
+<!--Create new OrthoFinder tree of reference genomes in color visible on white background-->
 ![Reference Genomes Gene Duplications](../../results/figures/reference_genomes.OrthoFinder_gene_duplications.png)
 
-We then ran OrthoFinder on the 40 Goura genomes and found that all 13 mitogenes were single copy ortholouges across all four species. The results are in '__data/raw/genera/Goura/fasta__'.
+We then ran OrthoFinder on the 40 Goura genomes and found that all 13 mitogenes are single-copy orthologues across all four species. The results are in '__data/raw/genera/Goura/fasta__'.
 
 ## Cytochrome B Haplotypes Across Time
 
