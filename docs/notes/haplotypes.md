@@ -1,8 +1,8 @@
-# Tracing Goura Haplotypes Through Time
+# Population Subdivision
 
 ## Consensus Tree of Goura Specimens from Cytochrome B
 
-Before making haplotype delineations in R, we created a maximum parsimony consensus tree of the 40 *Goura* specimen based on their CYTB genes. This way population structure is inferred phylogenetically by observing which specimen are more closely related.
+Before making haplotype delineations in R, we created a maximum parsimony consensus tree of the 40 *Goura* specimen based on their cytochrome b (*CYTB*) genes. This way, population structure is inferred phylogenetically by observing which specimen are more closely related. <!--Our naming convention is, genes italicized, proteins not-->
 
 1. **Extraction of cytochrome b DNA sequences:**
     Cytochrome b DNA sequences were written to the FASTA file '__cytochrome_b.fasta__' with the python executable '__concatenate_genes.py__' using the terms 'CYTB' and 'cob' for input genes as the gene is annotated by either name in the genbank files:
@@ -24,8 +24,8 @@ Before making haplotype delineations in R, we created a maximum parsimony consen
     ~~~bash
     python3 src/preprocessing/trim_length.py --input data/raw/genera/Goura/genes/cytb.fasta --output data/processed/genera/Goura/trimmed_fasta/cytb.fasta
     ~~~
-
-3. **Renaming the CYTB sequences to reflect sample origin:**
+<!--
+3. **Renaming the *CYTB* sequences to reflect sample origin:**
     To enhance the interpretability of our data, the sequences in '__cytb.fasta__' were systematically renamed. This renaming process labels each sequence with details about the specimen collection year, species, geographical origin, and the collector. This procedure is crucial for downstream analyses where such contextual information is needed.
     
     **Procedure:**
@@ -38,13 +38,15 @@ Before making haplotype delineations in R, we created a maximum parsimony consen
     python3 src/preprocessing/rename_fasta.py data/metadata/sample_origins.csv data/processed/genera/Goura/trimmed_fasta/cytb.fasta COLLECTION_DATE ORGANISM COUNTRY COLLECTED_BY > data/processed/genera/Goura/renamed_fasta/cytb.fasta
     ~~~
 
-4. **Maximum parsimony consensus tree using PAUP:**
-    <!--Include how the sequence names were shortened to work in NEXUS format-->
+    No cytb.fasta with sample origins as names exist. The names were to long to be converted to NEXUS format-->
+
+3. **Maximum parsimony consensus tree using PAUP:**
+
     - **Sequence alignment using MAFFT:**
-    The CYTB sequences were aligned with MAFFT by executing the following command:
+    The *CYTB* sequences were aligned with MAFFT by executing the following command:
 
     ~~~bash
-    mafft --auto data/processed/genera/Goura/renamed_fasta/cytb.fasta > data/processed/genera/Goura/cytb.aligned.fasta
+    mafft --auto data/processed/genera/Goura/trimmed_fasta/cytb.fasta > data/processed/genera/Goura/cytb.aligned.fasta
     ~~~
 
     The alignment was visually inspected with Jalview v. 2.11.2.7 and AliView v.2021.
@@ -78,20 +80,29 @@ Before making haplotype delineations in R, we created a maximum parsimony consen
     paup> savetrees file=data/processed/genera/Goura/cytb.parsimonious_trees.nexus
     ~~~
 
-5. **Annotation of consensus tree:**
+4. **Annotation of consensus tree:**
 
     - **Support value discrepancy:**
     Before annotating the consensus tree we noticed a discrepancy in a support value between the direct PAUP output printed to the screen and the NEXUS file of the consensus tree saved directly from the PAUP output. Specifically the NEXUS file contained a basal support value of 200%, while the PAUP output printed to the screen showed the same branch with a support value of 100%. We noted that none of the support values printed in PAUP exceeded 100%. We then compared the support values of the consensus tree printed in PAUP with the NEXUS formatted tree visualized in iToL and confirmed that all support values matched except for the basal 200% value. We attribute this discrepancy to a bug in the conversion process from PAUP to a tree file, possibly associated with our choice to produce an unrooted tree and not include an outgroup. We imagined that we manually corrected the basal 200% support value to 100% in iTol.
 
     - **Annotation of leaf nodes in iTol:**
-    To create an annotation file, we first created a column of new names by joining the columns 'COLLECTION_DATE', 'ORGANISM', 'COUNTRY', and 'COLLECTED_BY' of the metadata file 'data/metadata/__sample_origins.csv__' by '|' using Excel. For the 40 Goura specimens, this new column was copied together with the 'ACCESSION' to the bottom of a copy of the iToL annotation template 'docs/templates/__annotation_template.txt__', the 'SEPARATOR' set to 'TAB', and saved as 'data/metadata/__goura_annotations.txt__'. The resulting tree is saved as 'results/figures/__goura.cytb.tree.png__'. We also made a tree labeled with only collection date, organism, and country of origin, as shown below:
+    To annotate the tree with sample origins we created an annotation file for use in iToL. This involved merging the values of the columns 'COLLECTION_DATE', 'ORGANISM', 'COUNTRY', and 'COLLECTED_BY' of the metadata file 'data/metadata/__sample_origins.csv__' by '|' using Excel. For the 40 Goura specimens, this new column was copied together with the values of the 'ACCESSION' column to the bottom of an iToL annotation template, 'docs/templates/__annotation_template.txt__', the 'SEPARATOR' set to 'TAB', and saved as 'data/metadata/__goura_annotations.txt__'. The resulting tree figure was saved as 'results/figures/__goura.cytb.tree.png__'. We also made a tree labeled with only collection date, organism, and country of origin, as shown below:
 
 ![Goura Cytochrome B Consensus Tree](../../results/figures/goura.cytb.tree.blue.png)
 
-### Interpretation of Goura CYTB Consensus Tree 
+### Interpretation of Goura *CYTB* Consensus Tree 
 
-We first of all observed that all specimen delineate according to species, and that *G. cristata* and *G. sclaterii* constitute one monophyletic group while *G. victoria* and *G. scheepmakeri* constitute another in agreement with the species trees in [species_tree.md](../../docs/notes/species_tree.md), and that all specimen appear to have been correctly assigned to species showing that Cytochrome B provides high enough resolution to correctly represent the phylogenetic organization of species within the *Goura* genus. There was some uncertainty to whether *Goura cristata minor*, collected in 1934, had been correctly species determined, as it is labeled as Papua New Guinean as opposed to the other *G. cristata*, which are from western New Guinea in Indonesia. *G. sclaterii* delineates into two clades: One collected in Indonesia and one collected in Papua New Guinea - both clades have a support value of 100%. We also noted that for *G. cristata* there exists a clade from which no samples have been collected since 1925 - except for one specimen without specified sampling year or place - including the specimen collected in 1860 by Charles M. Allen. For *G. victoria* there is a clade, containing the only specimen of subspecies *baccarii*, which most recent specimen is from 1938.
+The consensus tree analysis of *Goura* specimen based on the *CYTB* gene reveals several key insights into their phylogenetic relationships:
 
+1. __Species Delineation__: All specimen were grouped according to their species. This finding is consistent with the species trees presented in [species_tree.md](../../docs/notes/species_tree.md). Notably, *Goura cristata* and *Goura sclaterii* form one monophyletic group, while *Goura victoria* and *Goura scheepmakeri* form another. This suggests that cytochrome b is a reliable marker for species-level phylogenetic studies within the genus *Goura*.
+2. __Species Assignment Accuracy__: The analysis confirmed the accurate species assignment of all specimens, including *Goura cristata minor*. The latter's classification had been uncertain due to its geographic origin (Papua New Guinea) differing from other *G. cristata* specimens (wester New Guinea, Indonesia). This finding underscores the resolution of cytochrome b in distinguishing *Goura* species.
+3. __Intra-species Divergence__: Within *Goura sclaterii*, we observed two distinct clades with strong support (100%): one comprising Indonesian specimens and the other of Papua New Guinean origin. This suggests a geographic structuring within the species.
+4. __Historical Sampling Patterns__: An interesting pattern was noted in *Goura cristata*, where a clade has no recent samples post-1925, except for one undated specimen. This includes the oldest known specimen collected in 1860 by Charles M. Allen. Similarly, in *Goura victoria*, a clade that includes the subspecies *baccarii* has no recent samples beyond 1938. These observations may indicate historical changes in population distribution or sampling biases.
+
+## Haplotypes
+🏗👷‍♀️
+
+<!--
 ## Maximum Likelihood Tree of Orthologous Mitogenes
 
 To create phylogenetic trees based on all core orthologous genes of the mitogenomes, we decided to use OrthoFinder v. 2.5.5.  For this we first extracted protein sequences of all coding sequences of the *Goura* genomes and of the reference genomes. We used the script [__extract_proteins.py__](../../src/preprocessing/extract_proteins.py), which takes a directory of Genbank files and an output directory as inputs, to produce protein sequence FASTA-files for each *Goura* species by executing the following command:
@@ -116,7 +127,6 @@ orthofinder -s data/processed/mitochondria_tree.for_orthofinder.newick -f data/r
 
 The OrthoFinder results revealed that no gene duplications had occured in the mitochondrial genomes of our nine species since their most recent common ancestor (MRCA). As illustrated by the species tree below, where the number after the underscore, '_', of each node label (N0,N1..) represents the number of duplications on the branch leading to that node, the number of duplications are zero along all branches.
 
-<!--Create new OrthoFinder tree of reference genomes in color visible on white background-->
 ![Reference Genomes Gene Duplications](../../results/figures/reference_genomes.OrthoFinder_gene_duplications.png)
 
 We then ran OrthoFinder on the 40 Goura genomes and found that all 13 mitogenes are single-copy orthologues across all four species. The results are in '__data/raw/genera/Goura/fasta__'.
@@ -124,7 +134,7 @@ We then ran OrthoFinder on the 40 Goura genomes and found that all 13 mitogenes 
 ## Cytochrome B Haplotypes Across Time
 
 See src/analysis/cytochrome_B_haplotypes.R
-
+-->
 [^1]:[Consus Trees, Week 5, 22115 - Computational Molecular Evolution](https://teaching.healthtech.dtu.dk/22115/index.php/Consensus_Trees)
 
 
