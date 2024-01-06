@@ -24,6 +24,6 @@ For an in-depth understanding of our project, explore the following documents in
 
 - **Sample Origins:** [sample_origins.md](./docs/notes/sample_origins.md) - Records and summarizes the origins of genomes and the specimens they are derived from.
 
-- **Haplotyping:** [haplotypes.md](./docs/notes/haplotypes.md) - Discusses the subdivision of mitochondrial genomes into distinct haplotypes, and their temporal and spatial distribution.
+- **Population Subdivision:** [population_subdivision.md](./docs/notes/population_subdivision.md) - Discusses the subdivision of mitochondrial genomes into distinct haplotypes, and their temporal and spatial distribution.
 
 
