@@ -68,7 +68,7 @@ Before making haplotype delineations in R, we created a maximum parsimony consen
     paup> hsearch start=stepwise addseq=random nreps=20 rseed=98367 swap=TBR
     ~~~
 
-    From this search, 12 equally parsimonious trees were found. These trees were summarized in a consensus tree according to the majority rule, i.e. monophyletic groups occuring in at least 50% of the 12 equally parsimonious trees are accepted. The consesus tree, with branches labeled with support values i.e. the frequency with which the more terminal branches were monophyletic, was generated and saved by executing the following command:
+    From this search, 12 equally parsimonious trees were found. These trees were summarized in a consensus tree according to the majority rule, i.e. monophyletic groups occurring in at least 50% of the 12 equally parsimonious trees were accepted. The consesus tree, with branches labeled with support values i.e. the frequency with which the more terminal branches were monophyletic, was generated and saved by executing the following command:
     
     ~~~bash
     paup> contree all /strict=no majrule=yes percent=50 treefile=data/processed/genera/Goura/cytb.consensus.tree.nexus
@@ -83,9 +83,9 @@ Before making haplotype delineations in R, we created a maximum parsimony consen
 4. **Annotation of consensus tree:**
 
     - **Support value discrepancy:**
-    Before annotating the consensus tree we noticed a discrepancy in a support value between the direct PAUP output printed to the screen and the NEXUS file of the consensus tree saved directly from the PAUP output. Specifically the NEXUS file contained a basal support value of 200%, while the PAUP output printed to the screen showed the same branch with a support value of 100%. We noted that none of the support values printed in PAUP exceeded 100%. We then compared the support values of the consensus tree printed in PAUP with the NEXUS formatted tree visualized in iToL and confirmed that all support values matched except for the basal 200% value. We attribute this discrepancy to a bug in the conversion process from PAUP to a tree file, possibly associated with our choice to produce an unrooted tree and not include an outgroup. We imagined that we manually corrected the basal 200% support value to 100% in iTol.
+    Before annotating the consensus tree we noticed a discrepancy in a support value between the direct PAUP output printed to the screen and the NEXUS file of the consensus tree saved directly from the PAUP output. Specifically the NEXUS file contained a basal support value of 200%, while the PAUP output printed to the screen showed the same branch with a support value of 100%. We noted that none of the support values printed in PAUP exceeded 100%. We then compared the support values of the consensus tree printed in PAUP with the NEXUS formatted tree visualized in iToL and confirmed that all support values matched except for the basal 200% value. We attribute this discrepancy to a bug in the conversion process from PAUP to a tree file, possibly associated with our choice to produce an unrooted tree and not include an outgroup. We imagined that we manually corrected the basal 200% support value to 100% in iToL.
 
-    - **Annotation of leaf nodes in iTol:**
+    - **Annotation of leaf nodes in iToL:**
     To annotate the tree with sample origins we created an annotation file for use in iToL. This involved merging the values of the columns 'COLLECTION_DATE', 'ORGANISM', 'COUNTRY', and 'COLLECTED_BY' of the metadata file 'data/metadata/__sample_origins.csv__' by '|' using Excel. For the 40 Goura specimens, this new column was copied together with the values of the 'ACCESSION' column to the bottom of an iToL annotation template, 'docs/templates/__annotation_template.txt__', the 'SEPARATOR' set to 'TAB', and saved as 'data/metadata/__goura_annotations.txt__'. The resulting tree figure was saved as 'results/figures/__goura.cytb.tree.png__'. We also made a tree labeled with only collection date, organism, and country of origin, as shown below:
 
 ![Goura Cytochrome B Consensus Tree](../../results/figures/goura.cytb.tree.blue.png)
@@ -100,8 +100,9 @@ The consensus tree analysis of *Goura* specimen based on the *CYTB* gene reveals
 4. __Historical Sampling Patterns__: An interesting pattern was noted in *Goura cristata*, where a clade has no recent samples post-1925, except for one undated specimen. This includes the oldest known specimen collected in 1860 by Charles M. Allen. Similarly, in *Goura victoria*, a clade that includes the subspecies *baccarii* has no recent samples beyond 1938. These observations may indicate historical changes in population distribution or sampling biases.
 
 ## Haplotypes
-🏗👷‍♀️
+# 🏗👷‍♀️
 
+Return to [README](../../README.md).
 <!--
 ## Maximum Likelihood Tree of Orthologous Mitogenes
 
