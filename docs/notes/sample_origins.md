@@ -52,7 +52,7 @@ To more clearly visualize the geographical distribution of *Goura cristata* we p
 The first Goura specimen - a *Goura cristata* - was, as specified in the GenBank file of the MtDNA genome, collected by Charles Martin Allen, assistant to Alfred Russel Wallace, during an 1860 expedition to Misool Island, Indonesia. This prompted a review of the literature, specifically *In Alfred Russel Wallace's Shadow: His Forgotten Assistant, Charles Allen (1839-1892)* by Kees Rookmaaker and John van Wyhe, for further insights.
 
 ### Excerpts from Wallace's Correspondences and Notebooks
-In their paper, Rookmaaker and van Wyhe cite several colorful descriptions from Wallace's letters and notebooks of his and Allen's experiences. Wallace's initial character assessment of Allen, who was brought along as field assistant at only 16 years of age, is mentioned in a letter to his own mother, from July 1854 when camping in the jungle near Malacca, Malaysia:
+In their paper, Rookmaaker and van Wyhe cite several colorful descriptions from Wallace's letters and notebooks of his and Allen's experiences. Wallace's initial character assessment of Allen, who was brought along as field assistant at only 16 years of age, is mentioned in a letter to Wallace's mother, from July 1854 when camping in the jungle near Malacca, Malaysia:
 
 >So far both I and Charles have enjoyed excellent health. He can now shoot
 pretty well, and is so fond of it that I can hardly get him to do anything else.
