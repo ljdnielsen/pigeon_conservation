@@ -1,7 +1,25 @@
 #NEXUS
 begin trees;
-	tree PAUP_1 = [&U] ((((('KX902238.1'[&!color=#ff6600]:149.0,'NC_031864.1'[&!color=#ff6600]:147.0)[&!color=#ff6600]:65.0,'NC_031869.1'[&!color=#ff6600]:170.0)[&!color=#ff6600]:92.0,'NC_031866.1'[&!color=#ff6600]:150.0)[&!color=#ff6600]:46.0,(('MG590288.1'[&!color=#ff6600]:46.0,'NC_031865.1'[&!color=#ff6600]:29.0)[&!color=#ff6600]:44.0,('NC_027947.1'[&!color=#ff6600]:13.0,'NC_036613.1'[&!color=#ff6600]:14.0)[&!color=#ff6600]:56.0)[&!color=#ff6600]:93.0)[&!color=#ff6600]:78.0,'NC_042502.1'[&!color=#ff6600]:177.0)[&!color=#ff6600];
-
+	translate
+		KX902238.1 "Pezophaps solitaria",
+		NC_031864.1 "Raphus cucullatus",
+		NC_031869.1 "Caloenas nicobarica",
+		NC_031866.1 "Didunculus strigirostris",
+		MG590288.1 "Goura sclaterii",
+		NC_031865.1 "Goura cristata",
+		NC_027947.1 "Goura scheepmakeri",
+		NC_036613.1 "Goura victoria",
+		NC_042502.1 "Ectopistes migratorius";
+	tree PAUP_1 = [&U] ((((('KX902238.1'[&!color=#ff6600]:149.0,
+	'NC_031864.1'[&!color=#ff6600]:147.0)[&!color=#ff6600]:65.0,
+	'NC_031869.1'[&!color=#ff6600]:170.0)[&!color=#ff6600]:92.0,
+	'NC_031866.1'[&!color=#ff6600]:150.0)[&!color=#ff6600]:46.0,
+	(('MG590288.1'[&!color=#ff6600]:46.0,
+	'NC_031865.1'[&!color=#ff6600]:29.0)[&!color=#ff6600]:44.0,
+	('NC_027947.1'[&!color=#ff6600]:13.0,
+	'NC_036613.1'[&!color=#ff6600]:14.0)[&!color=#ff6600]:56.0)[&!color=#ff6600]:93.0)[&!color=#ff6600]:78.0,
+	'NC_042502.1'[&!color=#ff6600]:177.0)[&!color=#ff6600];
+end;
 begin figtree;
 	set appearance.backgroundColorAttribute="Default";
 	set appearance.backgroundColour=#ffffff;

@@ -88,7 +88,7 @@ Before making haplotype delineations in R, we created a maximum parsimony consen
     - **Annotation of leaf nodes in iToL:**
     To annotate the tree with sample origins we created an annotation file for use in iToL. This involved merging the values of the columns 'COLLECTION_DATE', 'ORGANISM', 'COUNTRY', and 'COLLECTED_BY' of the metadata file 'data/metadata/__sample_origins.csv__' by '|' using Excel. For the 40 Goura specimens, this new column was copied together with the values of the 'ACCESSION' column to the bottom of an iToL annotation template, 'docs/templates/__annotation_template.txt__', the 'SEPARATOR' set to 'TAB', and saved as 'data/metadata/__goura_annotations.txt__'. The resulting tree figure was saved as 'results/figures/__goura.cytb.tree.png__'. We also made a tree labeled with only collection date, organism, and country of origin, as shown below:
 
-![Goura Cytochrome B Consensus Tree](../../results/figures/goura.cytb.tree.blue.200dpi.png)
+![Goura Cytochrome B Consensus Tree](../../results/figures/goura.cytb.tree.blue.220dpi.png)
 
 ### Interpretation of Goura *CYTB* Consensus Tree 
 

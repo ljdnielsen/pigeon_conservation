@@ -1,7 +1,17 @@
 #NEXUS
 begin trees;
+	translate
+		KX902238.1 "Pezophaps solitaria",
+		NC_031864.1 "Raphus cucullatus",
+		NC_031869.1 "Caloenas nicobarica",
+		NC_031866.1 "Didunculus strigirostris",
+		MG590288.1 "Goura sclaterii",
+		NC_031865.1 "Goura cristata",
+		NC_027947.1 "Goura scheepmakeri",
+		NC_036613.1 "Goura victoria",
+		NC_042502.1 "Ectopistes migratorius";
 	tree PAUP_1 = [&U] (((('KX902238.1'[&!color=#ff6600]:49.0,'NC_031864.1'[&!color=#ff6600]:60.0)[&!color=#ff6600]:18.0,('NC_031866.1'[&!color=#ff6600]:68.0,'NC_031869.1'[&!color=#ff6600]:77.0)[&!color=#ff6600]:17.0)[&!color=#ff6600]:27.0,(('MG590288.1'[&!color=#ff6600]:15.0,'NC_031865.1'[&!color=#ff6600]:20.0)[&!color=#ff6600]:26.0,('NC_027947.1'[&!color=#ff6600]:3.0,'NC_036613.1'[&!color=#ff6600]:8.0)[&!color=#ff6600]:23.0)[&!color=#ff6600]:43.0)[&!color=#ff6600]:17.0,'NC_042502.1'[&!color=#ff6600]:69.0)[&!color=#ff6600];
-
+end;
 begin figtree;
 	set appearance.backgroundColorAttribute="Default";
 	set appearance.backgroundColour=#ffffff;

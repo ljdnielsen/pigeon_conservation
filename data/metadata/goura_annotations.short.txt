@@ -1,0 +1,68 @@
+LABELS
+#use this template to change the leaf labels, or define/change the internal node names
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
+
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#NODE_ID,LABEL
+
+#Examples
+#define a name for an internal node
+#9031|9606,Metazoa
+
+#change the label for leaf node 9606
+#9606,Homo sapiens
+
+LN589993.1	1920|Goura victoria beccarii|Papua New Guinea
+MG590297.1	n/a|Goura victoria|Indonesia
+NC_036613.1	n/a|Goura victoria|Indonesia
+MG590301.1	1966|Goura victoria|Papua New Guinea
+MG590302.1	1966|Goura victoria|Papua New Guinea
+MG590300.1	1959|Goura victoria|Papua New Guinea
+MG590299.1	1954|Goura victoria|Papua New Guinea
+MG590293.1	1939|Goura victoria|Indonesia
+MG590294.1	1938|Goura victoria|Indonesia
+MG590290.1	1920|Goura victoria|Papua New Guinea
+MG590289.1	1920|Goura victoria|Papua New Guinea
+MG590292.1	1920|Goura victoria|Papua New Guinea
+MG590298.1	1899|Goura victoria|Papua New Guinea
+MG590296.1	1896|Goura victoria|Indonesia
+MG590295.1	1883|Goura victoria|Indonesia
+MG590291.1	1873|Goura victoria|Indonesia
+MG590288.1	n/a|Goura sclaterii|Indonesia
+MG590287.1	n/a|Goura sclaterii|Indonesia
+MG590286.1	1971|Goura sclaterii|Indonesia
+MG590285.1	1964|Goura sclaterii|Papua New Guinea
+MG590279.1	1912|Goura sclaterii|Indonesia
+MG590278.1	1910|Goura sclaterii|Indonesia
+MG590277.1	1877|Goura sclaterii|Papua New Guinea
+MG590283.1	1966|Goura scheepmakeri|Papua New Guinea
+MG590284.1	1966|Goura scheepmakeri|Papua New Guinea
+MG590282.1	1966|Goura scheepmakeri|Papua New Guinea
+MG590281.1	1948|Goura scheepmakeri|Papua New Guinea
+MG590280.1	1893|Goura scheepmakeri|Papua New Guinea
+NC_027947.1	1879|Goura scheepmakeri|Papua New Guinea
+LN589994.2	1934|Goura cristata minor|Papua New Guinea
+NC_031865.1	n/a|Goura cristata|n/a
+MG590270.1	n/a|Goura cristata|Indonesia
+MG590275.1	2014|Goura cristata|Indonesia
+MG590274.1	2014|Goura cristata|Indonesia
+MG590273.1	1925|Goura cristata|Indonesia
+MG590269.1	1902|Goura cristata|Indonesia
+MG590271.1	1896|Goura cristata|Indonesia
+MG590272.1	1896|Goura cristata|Indonesia
+MG590267.1	1873|Goura cristata|Indonesia
+MG590268.1	1860|Goura cristata|Indonesia
+
