@@ -42,7 +42,7 @@ During the BLAST searches, we also recorded the percent identity of the least si
 
 To retrieve the mitochondrial genomes, we employed the efetch (v. 20.7) command from Entrez Direct with a list of the chosen genomes. This process involved:
 
-1. **Creating an Input File**: We first prepared a text file ('genome_accessions.txt') listing the NCBI accession numbers of all the genomes we intended to download.
+1. **Creating an Input File**: We first prepared a text file ('genome_accessions.txt') listing the NCBI accession numbers of the genomes we intended to download.
 2. **Executing the Command**: We then executed the following command which loops through the accession numbers downloading each genome with efetch to the current directory:
 ~~~bash
 # Loop through each line in the file 'genome_accessions.txt'
